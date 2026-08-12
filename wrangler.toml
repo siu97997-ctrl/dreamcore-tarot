@@ -1,0 +1,19 @@
+name = "dreamcore-tarot"
+main = ".next/standalone/server.js"
+compatibility_date = "2026-08-12"
+
+[vars]
+DEEPSEEK_API_KEY = ""
+NODE_ENV = "production"
+
+[[static_assets]]
+folder = "/public"
+from = ".next/standalone/public"
+
+[[static_assets]]
+folder = "/cards_corrected"
+from = "public/cards_corrected"
+
+[[static_assets]]
+folder = "/assets"
+from = "public/assets"

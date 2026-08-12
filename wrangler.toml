@@ -1,19 +1,14 @@
 name = "dreamcore-tarot"
-main = ".next/standalone/server.js"
+main = "./worker/index.ts"
 compatibility_date = "2026-08-12"
+compatibility_flags = ["nodejs_compat"]
 
 [vars]
-DEEPSEEK_API_KEY = ""
 NODE_ENV = "production"
 
-[[static_assets]]
-folder = "/public"
-from = ".next/standalone/public"
+[assets]
+directory = "./public"
 
-[[static_assets]]
-folder = "/cards_corrected"
-from = "public/cards_corrected"
-
-[[static_assets]]
-folder = "/assets"
-from = "public/assets"
+# 备注：DEEPSEEK_API_KEY 请通过 Cloudflare 控制台的
+# Settings → Variables and Secrets 添加为 Secret 变量
+# （不要写在此文件中，避免泄露到 GitHub）

@@ -1,55 +1,50 @@
-# Dependencies
-node_modules/
-.pnp
-.pnp.js
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Build output
-.next/
-out/
-dist/
-build/
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 
-# Environment files - CONTAIN API KEYS!
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-config/.env*
+# testing
+/coverage
 
-# IDE / Editor
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# next.js
+/.next/
+/.vinext/
+/out/
 
-# OS files
+# misc
 .DS_Store
-Thumbs.db
+*.pem
 
-# Logs
-*.log
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.pnpm-debug.log*
 
-# Temporary files
-tmp/
-*.tmp
-*.temp
+# env files (can opt-in for committing if needed)
+.env*
+*.env
 
-# CloudBase specific
-.cloudbase/
+# vercel
+.vercel
 
-# Generated images (large, keep local)
-assets/generated/
+/dist/
+/.wrangler/
+/outputs/
+/work/
 
-# WorkBuddy internal
-.workbuddy/
+# 项目本地工作副本（含自有 .git，不要推到部署仓库）
+/web/
 
-# Zip archives
+# 部署用压缩包（体积大，非源码）
 *.zip
-!dreamcore-tarot-cloudbase.zip
-config/model-providers.env
-web/
+
+# 临时文件
+/tmp/

@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+.next/
+out/
+dist/
+build/
+
+# Environment files - CONTAIN API KEYS!
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+config/.env*
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+tmp/
+*.tmp
+*.temp
+
+# CloudBase specific
+.cloudbase/
+
+# Generated images (large, keep local)
+assets/generated/
+
+# WorkBuddy internal
+.workbuddy/
+
+# Zip archives
+*.zip
+!dreamcore-tarot-cloudbase.zip
+config/model-providers.env
+web/

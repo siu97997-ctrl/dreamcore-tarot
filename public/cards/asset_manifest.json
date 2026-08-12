@@ -1,0 +1,407 @@
+{
+  "schema_version": "0.2.0",
+  "card_faces": {
+    "total": 78,
+    "major": 22,
+    "minor": 56,
+    "ready": 78
+  },
+  "card_back": {
+    "path": "/cards/back/card_back.png",
+    "status": "ready"
+  },
+  "qa_report": "/docs/CARD_ASSET_QA.md",
+  "provenance": "/docs/card_asset_provenance.csv",
+  "files": [
+    {
+      "path": "/cards/major/00_the_fool.png",
+      "status": "ready",
+      "qa_status": "pending visual review"
+    },
+    {
+      "path": "/cards/major/01_the_magician.png",
+      "status": "ready",
+      "qa_status": "pending visual review"
+    },
+    {
+      "path": "/cards/major/02_the_high_priestess.png",
+      "status": "ready",
+      "qa_status": "pending visual review"
+    },
+    {
+      "path": "/cards/major/03_the_empress.png",
+      "status": "ready",
+      "qa_status": "pending visual review"
+    },
+    {
+      "path": "/cards/major/04_the_emperor.png",
+      "status": "ready",
+      "qa_status": "pending visual review"
+    },
+    {
+      "path": "/cards/major/05_the_hierophant.png",
+      "status": "ready",
+      "qa_status": "pending visual review"
+    },
+    {
+      "path": "/cards/major/06_the_lovers.png",
+      "status": "ready",
+      "qa_status": "pending visual review"
+    },
+    {
+      "path": "/cards/major/07_the_chariot.png",
+      "status": "ready",
+      "qa_status": "pending visual review"
+    },
+    {
+      "path": "/cards/major/08_strength.png",
+      "status": "ready",
+      "qa_status": "pending visual review"
+    },
+    {
+      "path": "/cards/major/09_the_hermit.png",
+      "status": "ready",
+      "qa_status": "pending visual review"
+    },
+    {
+      "path": "/cards/major/10_wheel_of_fortune.png",
+      "status": "ready",
+      "qa_status": "pending visual review"
+    },
+    {
+      "path": "/cards/major/11_justice.png",
+      "status": "ready",
+      "qa_status": "pending visual review"
+    },
+    {
+      "path": "/cards/major/12_the_hanged_man.png",
+      "status": "ready",
+      "qa_status": "pending visual review"
+    },
+    {
+      "path": "/cards/major/13_death.png",
+      "status": "ready",
+      "qa_status": "pending visual review"
+    },
+    {
+      "path": "/cards/major/14_temperance.png",
+      "status": "ready",
+      "qa_status": "pending visual review"
+    },
+    {
+      "path": "/cards/major/15_the_devil.png",
+      "status": "ready",
+      "qa_status": "pending visual review"
+    },
+    {
+      "path": "/cards/major/16_the_tower.png",
+      "status": "ready",
+      "qa_status": "pending visual review"
+    },
+    {
+      "path": "/cards/major/17_the_star.png",
+      "status": "ready",
+      "qa_status": "pending visual review"
+    },
+    {
+      "path": "/cards/major/18_the_moon.png",
+      "status": "ready",
+      "qa_status": "pending visual review"
+    },
+    {
+      "path": "/cards/major/19_the_sun.png",
+      "status": "ready",
+      "qa_status": "pending visual review"
+    },
+    {
+      "path": "/cards/major/20_judgement.png",
+      "status": "ready",
+      "qa_status": "pending visual review"
+    },
+    {
+      "path": "/cards/major/21_the_world.png",
+      "status": "ready",
+      "qa_status": "pending visual review"
+    },
+    {
+      "path": "/cards/cups/01_ace_of_cups.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/wands/01_ace_of_wands.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/swords/01_ace_of_swords.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/pentacles/01_ace_of_pentacles.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/cups/02_two_of_cups.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/wands/02_two_of_wands.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/swords/02_two_of_swords.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/pentacles/02_two_of_pentacles.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/cups/03_three_of_cups.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/wands/03_three_of_wands.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/swords/03_three_of_swords.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/pentacles/03_three_of_pentacles.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/cups/04_four_of_cups.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/wands/04_four_of_wands.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/swords/04_four_of_swords.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/pentacles/04_four_of_pentacles.png",
+      "status": "ready",
+      "qa_status": "printed title typo"
+    },
+    {
+      "path": "/cards/cups/05_five_of_cups.png",
+      "status": "ready",
+      "qa_status": "wrong top numeral: 2"
+    },
+    {
+      "path": "/cards/wands/05_five_of_wands.png",
+      "status": "ready",
+      "qa_status": "wrong top numeral: 2"
+    },
+    {
+      "path": "/cards/swords/05_five_of_swords.png",
+      "status": "ready",
+      "qa_status": "wrong top numeral: 2"
+    },
+    {
+      "path": "/cards/pentacles/05_five_of_pentacles.png",
+      "status": "ready",
+      "qa_status": "wrong top numeral: 2"
+    },
+    {
+      "path": "/cards/cups/06_six_of_cups.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/wands/06_six_of_wands.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/swords/06_six_of_swords.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/pentacles/06_six_of_pentacles.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/cups/07_seven_of_cups.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/wands/07_seven_of_wands.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/swords/07_seven_of_swords.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/pentacles/07_seven_of_pentacles.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/cups/08_eight_of_cups.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/wands/08_eight_of_wands.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/swords/08_eight_of_swords.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/pentacles/08_eight_of_pentacles.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/cups/09_nine_of_cups.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/wands/09_nine_of_wands.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/swords/09_nine_of_swords.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/pentacles/09_nine_of_pentacles.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/cups/10_ten_of_cups.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/wands/10_ten_of_wands.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/swords/10_ten_of_swords.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/pentacles/10_ten_of_pentacles.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/cups/11_page_of_cups.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/wands/11_page_of_wands.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/swords/11_page_of_swords.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/pentacles/11_page_of_pentacles.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/cups/12_knight_of_cups.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/wands/12_knight_of_wands.png",
+      "status": "ready",
+      "qa_status": "wrong printed rank: JACK/侍从"
+    },
+    {
+      "path": "/cards/swords/12_knight_of_swords.png",
+      "status": "ready",
+      "qa_status": "wrong printed rank: JACK/侍从"
+    },
+    {
+      "path": "/cards/pentacles/12_knight_of_pentacles.png",
+      "status": "ready",
+      "qa_status": "wrong printed rank: JACK/侍从"
+    },
+    {
+      "path": "/cards/cups/13_queen_of_cups.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/wands/13_queen_of_wands.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/swords/13_queen_of_swords.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/pentacles/13_queen_of_pentacles.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/cups/14_king_of_cups.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/wands/14_king_of_wands.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/swords/14_king_of_swords.png",
+      "status": "ready",
+      "qa_status": "pass"
+    },
+    {
+      "path": "/cards/pentacles/14_king_of_pentacles.png",
+      "status": "ready",
+      "qa_status": "pass"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": "0.1.0",
+  "reading_system": "dreamcore_tarot_mvp",
+  "principles": {
+    "primary": "塔罗提供象征视角、当下模式与趋势线索，不宣称不可改变的命运。",
+    "self_exploration": "帮助用户辨认感受、需求、选择和可执行行动。",
+    "trend_forecasting": "基于当前条件描述更可能的发展方向，并说明可能改变趋势的行动。",
+    "interpretation_source": "单牌事实以 tarot_cards.json 为准；AI 负责结合问题、牌位和牌组关系进行综合表达。"
+  },
+  "draw_config": {
+    "deck_size": 78,
+    "without_replacement": true,
+    "reversals_enabled": true,
+    "reversal_probability": 0.35,
+    "allow_redraw": false
+  },
+  "mvp_spreads": {
+    "insight_3": {
+      "name_zh": "看清这件事",
+      "use_for": ["self_exploration", "relationship", "career", "decision"],
+      "positions": [
+        {"id": "situation", "name_zh": "当前核心", "weight": 1.0},
+        {"id": "hidden_factor", "name_zh": "未被看见的影响", "weight": 0.9},
+        {"id": "advice", "name_zh": "现在最有帮助的行动", "weight": 1.1}
+      ]
+    },
+    "trend_3": {
+      "name_zh": "接下来会怎样",
+      "use_for": ["trend_forecasting"],
+      "positions": [
+        {"id": "current_energy", "name_zh": "当前能量", "weight": 1.0},
+        {"id": "developing_trend", "name_zh": "发展趋势", "weight": 1.1},
+        {"id": "change_lever", "name_zh": "可改变趋势的行动", "weight": 1.1}
+      ]
+    }
+  },
+  "question_routing": {
+    "love": ["感情", "关系", "对方", "复合", "暧昧", "喜欢"],
+    "career": ["工作", "事业", "求职", "项目", "合作", "升职"],
+    "self": ["我为什么", "内心", "状态", "成长", "选择", "迷茫"],
+    "trend": ["会不会", "能不能", "一定会", "赚钱吗", "结果", "未来", "接下来", "趋势"],
+    "fallback_field": "core"
+  },
+  "synthesis_order": [
+    "identify_question_domain",
+    "read_each_card_through_its_position",
+    "find_the_dominant_card",
+    "compare_suits_and_elements",
+    "notice_repeated_numbers_and_court_patterns",
+    "resolve_support_or_tension_between_cards",
+    "state_one_coherent_story",
+    "give_one_actionable_next_step"
+  ],
+  "dominance_rules": {
+    "arcana_priority": {"major": 3, "court": 2, "numbered_minor": 1},
+    "position_weight_applies": true,
+    "multiple_major_arcana": "把问题视为阶段性人生课题，不只解释为短期事件。",
+    "no_major_arcana": "重点放在现实行为、沟通和可调整条件。"
+  },
+  "element_relations": {
+    "supportive": [
+      ["fire", "air"],
+      ["water", "earth"]
+    ],
+    "tension": [
+      ["fire", "water"],
+      ["air", "earth"]
+    ],
+    "neutral": [
+      ["fire", "earth"],
+      ["air", "water"]
+    ],
+    "interpretation": {
+      "supportive": "两张牌的能量互相推动，可提高趋势一致性。",
+      "tension": "存在目标、节奏或表达方式冲突，需要指出矛盾而非强行统一。",
+      "neutral": "主要依据牌义与牌位判断，不额外放大元素关系。"
+    }
+  },
+  "pattern_rules": {
+    "same_suit_2_plus": "该花色主题成为主要现实议题。",
+    "major_arcana_2_plus": "当前问题具有较强阶段性或身份转变意味。",
+    "court_cards_2_plus": "重点检查人物互动、角色分工或用户正在采用的行为方式。",
+    "same_number_2_plus": "把共同数字视为重复发展阶段，但不凌驾于具体牌义。",
+    "reversed_2_plus": "优先检查阻塞、内化、失衡或尚未说出口的部分，不直接解释为坏结果。"
+  },
+  "contradiction_rule": {
+    "instruction": "当牌意冲突时，用‘一方面……但另一方面……’呈现张力，再由建议位或用户可控因素决定行动重点。",
+    "forbidden": "不得挑选其中一张牌并忽略其他牌。"
+  },
+  "response_contract": {
+    "sections": [
+      "direct_answer",
+      "card_by_card",
+      "combined_story",
+      "actionable_advice",
+      "one_deeper_question",
+      "closing"
+    ],
+    "direct_answer_style": "先用 1 至 2 句直接回应用户真正问的问题，不绕弯。",
+    "card_by_card_style": "每张牌都必须结合牌位和问题，禁止复制数据库原文后结束。",
+    "combined_story_style": "说明牌与牌如何支持、推进或冲突，形成一条完整叙事。",
+    "one_deeper_question_rule": "只问一个能推动自我探索的问题，不连续追问。",
+    "closing_style": "温和收束，不制造依赖，不强迫用户继续抽牌。"
+  },
+  "language_rules": {
+    "persona": ["神秘", "直接", "有朋友感"],
+    "preferred": ["目前更像是", "趋势倾向于", "如果现状不变", "你仍然可以通过……改变走向"],
+    "avoid": ["注定", "百分之百", "一定会", "永远不会", "这是宇宙唯一的答案"],
+    "no_fear_marketing": true,
+    "no_repeat_draw_pressure": true
+  },
+  "sensitive_topics": {
+    "medical": "不诊断、不替代就医；可讨论情绪和支持资源。",
+    "legal": "不作法律结论；建议咨询合格专业人士。",
+    "financial": "不承诺收益、不指示高风险交易；只讨论风险意识与决策模式。",
+    "self_harm_or_immediate_danger": "停止占卜式解读，优先提供即时安全支持和现实求助建议。",
+    "third_party_mind_reading": "不把牌解释成对他人内心的确定事实；改写为可观察行为、关系动态和可能性。"
+  }
+}

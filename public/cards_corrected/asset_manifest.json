@@ -1,0 +1,334 @@
+{
+  "schema_version": "1.0.0-corrected",
+  "dimensions": {
+    "width": 1024,
+    "height": 1707,
+    "format": "PNG"
+  },
+  "card_faces": {
+    "total": 78,
+    "major": 22,
+    "minor": 56,
+    "status": "corrected"
+  },
+  "card_back": {
+    "path": "/cards_corrected/back/card_back.png",
+    "status": "corrected"
+  },
+  "original_library": "/cards",
+  "qa_report": "/docs/CARD_ASSET_QA_CORRECTED.md",
+  "files": [
+    {
+      "path": "/cards_corrected/major/00_the_fool.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/major/01_the_magician.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/major/02_the_high_priestess.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/major/03_the_empress.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/major/04_the_emperor.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/major/05_the_hierophant.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/major/06_the_lovers.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/major/07_the_chariot.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/major/08_strength.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/major/09_the_hermit.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/major/10_wheel_of_fortune.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/major/11_justice.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/major/12_the_hanged_man.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/major/13_death.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/major/14_temperance.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/major/15_the_devil.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/major/16_the_tower.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/major/17_the_star.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/major/18_the_moon.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/major/19_the_sun.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/major/20_judgement.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/major/21_the_world.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/cups/01_ace_of_cups.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/cups/02_two_of_cups.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/cups/03_three_of_cups.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/cups/04_four_of_cups.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/cups/05_five_of_cups.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/cups/06_six_of_cups.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/cups/07_seven_of_cups.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/cups/08_eight_of_cups.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/cups/09_nine_of_cups.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/cups/10_ten_of_cups.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/cups/11_page_of_cups.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/cups/12_knight_of_cups.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/cups/13_queen_of_cups.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/cups/14_king_of_cups.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/wands/01_ace_of_wands.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/wands/02_two_of_wands.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/wands/03_three_of_wands.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/wands/04_four_of_wands.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/wands/05_five_of_wands.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/wands/06_six_of_wands.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/wands/07_seven_of_wands.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/wands/08_eight_of_wands.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/wands/09_nine_of_wands.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/wands/10_ten_of_wands.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/wands/11_page_of_wands.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/wands/12_knight_of_wands.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/wands/13_queen_of_wands.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/wands/14_king_of_wands.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/swords/01_ace_of_swords.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/swords/02_two_of_swords.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/swords/03_three_of_swords.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/swords/04_four_of_swords.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/swords/05_five_of_swords.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/swords/06_six_of_swords.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/swords/07_seven_of_swords.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/swords/08_eight_of_swords.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/swords/09_nine_of_swords.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/swords/10_ten_of_swords.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/swords/11_page_of_swords.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/swords/12_knight_of_swords.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/swords/13_queen_of_swords.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/swords/14_king_of_swords.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/pentacles/01_ace_of_pentacles.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/pentacles/02_two_of_pentacles.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/pentacles/03_three_of_pentacles.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/pentacles/04_four_of_pentacles.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/pentacles/05_five_of_pentacles.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/pentacles/06_six_of_pentacles.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/pentacles/07_seven_of_pentacles.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/pentacles/08_eight_of_pentacles.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/pentacles/09_nine_of_pentacles.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/pentacles/10_ten_of_pentacles.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/pentacles/11_page_of_pentacles.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/pentacles/12_knight_of_pentacles.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/pentacles/13_queen_of_pentacles.png",
+      "qa_status": "corrected"
+    },
+    {
+      "path": "/cards_corrected/pentacles/14_king_of_pentacles.png",
+      "qa_status": "corrected"
+    }
+  ]
+}

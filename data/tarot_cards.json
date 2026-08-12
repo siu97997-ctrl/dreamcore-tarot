@@ -1,0 +1,3104 @@
+{
+  "schema_version": "0.4.0",
+  "content_status": "interpretation_first_draft_complete",
+  "deck": {
+    "id": "dreamcore_tarot",
+    "name": "Dreamcore Tarot",
+    "system": "Rider-Waite-Smith",
+    "locale": "zh-CN",
+    "card_count": 78,
+    "visual_direction": [
+      "梦核",
+      "疗愈",
+      "神秘",
+      "柔和超现实"
+    ]
+  },
+  "product_definition": {
+    "ai_persona": [
+      "神秘",
+      "直接",
+      "有朋友感"
+    ],
+    "tarot_roles": [
+      "self_exploration",
+      "trend_forecasting"
+    ],
+    "mvp_reading_flow": [
+      "question",
+      "draw",
+      "interpretation",
+      "one_deeper_question",
+      "closing"
+    ]
+  },
+  "assets": {
+    "base_path": "/cards_corrected",
+    "format": "png",
+    "width": 1024,
+    "height": 1707,
+    "card_back": "/cards_corrected/back/card_back.png",
+    "manifest": "/cards_corrected/asset_manifest.json"
+  },
+  "interpretation_content": {
+    "status": "first_draft_complete",
+    "completed_cards": 78,
+    "total_cards": 78,
+    "pilot_calibrated_cards": 6,
+    "draft_cards": 72,
+    "orientation_fields": [
+      "core",
+      "love",
+      "career",
+      "self",
+      "trend",
+      "advice"
+    ],
+    "forecasting_rule": "描述当前条件下更可能的发展倾向，不宣称确定命运。",
+    "editorial_rule": "直接但不制造恐惧；指出问题，同时给出用户可执行的选择。"
+  },
+  "cards": [
+    {
+      "id": "major_00",
+      "slug": "the_fool",
+      "name_en": "The Fool",
+      "name_zh": "愚人",
+      "arcana": "major",
+      "number": 0,
+      "suit": null,
+      "rank": null,
+      "element": null,
+      "image": "/cards_corrected/major/00_the_fool.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "pilot_complete",
+      "interpretation": {
+        "keywords": [
+          "新开始",
+          "自由",
+          "冒险",
+          "信任",
+          "未知"
+        ],
+        "upright": {
+          "core": "你正站在一个新阶段的入口。眼前未必有完整地图，但好奇心和行动会带来新的可能。",
+          "love": "关系里有轻盈、心动或重新开始的机会。重点不是立刻定义结果，而是真实地感受彼此是否愿意同行。",
+          "career": "适合尝试新方向、启动项目或离开过度熟悉的轨道，但要给热情配上基本准备。",
+          "self": "允许自己暂时不知道答案。你需要的可能不是更多控制，而是迈出第一步。",
+          "trend": "局面倾向打开，新机会会出现，但发展路径仍有较大弹性。",
+          "advice": "可以出发，但带上必要的判断力；勇敢不等于忽略风险。"
+        },
+        "reversed": {
+          "core": "自由可能正在变成逃避，或你因害怕犯错而迟迟不敢开始。",
+          "love": "关系可能缺少承诺、节奏不一致，或一方只享受新鲜感却回避责任。",
+          "career": "冲动转向、准备不足或对未知过度恐惧，都可能让机会停在想象中。",
+          "self": "先分清你是在倾听直觉，还是在用乐观掩盖不安。",
+          "trend": "短期容易反复或出现计划外变化，不适合盲目下注。",
+          "advice": "补齐信息和底线，再决定前进还是暂停。"
+        }
+      }
+    },
+    {
+      "id": "major_01",
+      "slug": "the_magician",
+      "name_en": "The Magician",
+      "name_zh": "魔术师",
+      "arcana": "major",
+      "number": 1,
+      "suit": null,
+      "rank": null,
+      "element": null,
+      "image": "/cards_corrected/major/01_the_magician.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "显化",
+          "意志",
+          "资源",
+          "行动",
+          "专注"
+        ],
+        "upright": {
+          "core": "你已有推动事情所需的能力和资源，现在需要把意图变成清晰行动。",
+          "love": "关系层面：你已有推动事情所需的能力和资源，现在需要把意图变成清晰行动。",
+          "career": "事业与现实层面：你已有推动事情所需的能力和资源，现在需要把意图变成清晰行动。",
+          "self": "自我探索中：你已有推动事情所需的能力和资源，现在需要把意图变成清晰行动。",
+          "trend": "若当前条件延续，你已有推动事情所需的能力和资源，现在需要把意图变成清晰行动。",
+          "advice": "集中力量完成最关键的一步，并对自己的影响力负责。"
+        },
+        "reversed": {
+          "core": "能力可能被分散、低估或用于操控，想法与行动之间出现断裂。",
+          "love": "关系层面：能力可能被分散、低估或用于操控，想法与行动之间出现断裂。",
+          "career": "事业与现实层面：能力可能被分散、低估或用于操控，想法与行动之间出现断裂。",
+          "self": "自我探索中：能力可能被分散、低估或用于操控，想法与行动之间出现断裂。",
+          "trend": "若当前条件延续，能力可能被分散、低估或用于操控，想法与行动之间出现断裂。",
+          "advice": "停止炫技或自我怀疑，确认目标后只使用真正有效的工具。"
+        }
+      }
+    },
+    {
+      "id": "major_02",
+      "slug": "the_high_priestess",
+      "name_en": "The High Priestess",
+      "name_zh": "女祭司",
+      "arcana": "major",
+      "number": 2,
+      "suit": null,
+      "rank": null,
+      "element": null,
+      "image": "/cards_corrected/major/02_the_high_priestess.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "直觉",
+          "静默",
+          "潜意识",
+          "观察",
+          "内在智慧"
+        ],
+        "upright": {
+          "core": "答案尚未完全显露，安静观察比急着表态更有价值。",
+          "love": "关系层面：答案尚未完全显露，安静观察比急着表态更有价值。",
+          "career": "事业与现实层面：答案尚未完全显露，安静观察比急着表态更有价值。",
+          "self": "自我探索中：答案尚未完全显露，安静观察比急着表态更有价值。",
+          "trend": "若当前条件延续，答案尚未完全显露，安静观察比急着表态更有价值。",
+          "advice": "给直觉空间，同时保留事实验证。"
+        },
+        "reversed": {
+          "core": "你可能忽略内在提醒，或被秘密、误读和情绪噪音干扰。",
+          "love": "关系层面：你可能忽略内在提醒，或被秘密、误读和情绪噪音干扰。",
+          "career": "事业与现实层面：你可能忽略内在提醒，或被秘密、误读和情绪噪音干扰。",
+          "self": "自我探索中：你可能忽略内在提醒，或被秘密、误读和情绪噪音干扰。",
+          "trend": "若当前条件延续，你可能忽略内在提醒，或被秘密、误读和情绪噪音干扰。",
+          "advice": "暂缓结论，分清直觉、焦虑和投射。"
+        }
+      }
+    },
+    {
+      "id": "major_03",
+      "slug": "the_empress",
+      "name_en": "The Empress",
+      "name_zh": "皇后",
+      "arcana": "major",
+      "number": 3,
+      "suit": null,
+      "rank": null,
+      "element": null,
+      "image": "/cards_corrected/major/03_the_empress.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "丰盛",
+          "滋养",
+          "创造",
+          "感官",
+          "成长"
+        ],
+        "upright": {
+          "core": "事物正通过照顾、耐心和创造力逐渐生长。",
+          "love": "关系层面：事物正通过照顾、耐心和创造力逐渐生长。",
+          "career": "事业与现实层面：事物正通过照顾、耐心和创造力逐渐生长。",
+          "self": "自我探索中：事物正通过照顾、耐心和创造力逐渐生长。",
+          "trend": "若当前条件延续，事物正通过照顾、耐心和创造力逐渐生长。",
+          "advice": "滋养真正有生命力的部分，也照顾自己的身体与需求。"
+        },
+        "reversed": {
+          "core": "过度付出、依赖认可或创造力受阻，正在消耗你的丰盛感。",
+          "love": "关系层面：过度付出、依赖认可或创造力受阻，正在消耗你的丰盛感。",
+          "career": "事业与现实层面：过度付出、依赖认可或创造力受阻，正在消耗你的丰盛感。",
+          "self": "自我探索中：过度付出、依赖认可或创造力受阻，正在消耗你的丰盛感。",
+          "trend": "若当前条件延续，过度付出、依赖认可或创造力受阻，正在消耗你的丰盛感。",
+          "advice": "停止无边界照顾别人，把资源收回到自己和核心目标。"
+        }
+      }
+    },
+    {
+      "id": "major_04",
+      "slug": "the_emperor",
+      "name_en": "The Emperor",
+      "name_zh": "皇帝",
+      "arcana": "major",
+      "number": 4,
+      "suit": null,
+      "rank": null,
+      "element": null,
+      "image": "/cards_corrected/major/04_the_emperor.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "秩序",
+          "边界",
+          "责任",
+          "权威",
+          "稳定"
+        ],
+        "upright": {
+          "core": "清晰结构和可靠边界能让局面稳定下来。",
+          "love": "关系层面：清晰结构和可靠边界能让局面稳定下来。",
+          "career": "事业与现实层面：清晰结构和可靠边界能让局面稳定下来。",
+          "self": "自我探索中：清晰结构和可靠边界能让局面稳定下来。",
+          "trend": "若当前条件延续，清晰结构和可靠边界能让局面稳定下来。",
+          "advice": "制定规则、承担责任，但给变化留下合理空间。"
+        },
+        "reversed": {
+          "core": "控制过度、权威冲突或缺乏纪律，让稳定变成僵化或混乱。",
+          "love": "关系层面：控制过度、权威冲突或缺乏纪律，让稳定变成僵化或混乱。",
+          "career": "事业与现实层面：控制过度、权威冲突或缺乏纪律，让稳定变成僵化或混乱。",
+          "self": "自我探索中：控制过度、权威冲突或缺乏纪律，让稳定变成僵化或混乱。",
+          "trend": "若当前条件延续，控制过度、权威冲突或缺乏纪律，让稳定变成僵化或混乱。",
+          "advice": "检查哪些规则在保护你，哪些只是恐惧的外壳。"
+        }
+      }
+    },
+    {
+      "id": "major_05",
+      "slug": "the_hierophant",
+      "name_en": "The Hierophant",
+      "name_zh": "教皇",
+      "arcana": "major",
+      "number": 5,
+      "suit": null,
+      "rank": null,
+      "element": null,
+      "image": "/cards_corrected/major/05_the_hierophant.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "传统",
+          "信念",
+          "学习",
+          "规范",
+          "导师"
+        ],
+        "upright": {
+          "core": "成熟经验、共同价值或可信赖的指导能帮助你建立方向。",
+          "love": "关系层面：成熟经验、共同价值或可信赖的指导能帮助你建立方向。",
+          "career": "事业与现实层面：成熟经验、共同价值或可信赖的指导能帮助你建立方向。",
+          "self": "自我探索中：成熟经验、共同价值或可信赖的指导能帮助你建立方向。",
+          "trend": "若当前条件延续，成熟经验、共同价值或可信赖的指导能帮助你建立方向。",
+          "advice": "理解规则背后的意义，再决定遵循还是调整。"
+        },
+        "reversed": {
+          "core": "旧规范可能不再适合你，盲从或反叛都会遮住真正的问题。",
+          "love": "关系层面：旧规范可能不再适合你，盲从或反叛都会遮住真正的问题。",
+          "career": "事业与现实层面：旧规范可能不再适合你，盲从或反叛都会遮住真正的问题。",
+          "self": "自我探索中：旧规范可能不再适合你，盲从或反叛都会遮住真正的问题。",
+          "trend": "若当前条件延续，旧规范可能不再适合你，盲从或反叛都会遮住真正的问题。",
+          "advice": "重新审视信念，保留有价值的部分并放下空洞形式。"
+        }
+      }
+    },
+    {
+      "id": "major_06",
+      "slug": "the_lovers",
+      "name_en": "The Lovers",
+      "name_zh": "恋人",
+      "arcana": "major",
+      "number": 6,
+      "suit": null,
+      "rank": null,
+      "element": null,
+      "image": "/cards_corrected/major/06_the_lovers.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "pilot_complete",
+      "interpretation": {
+        "keywords": [
+          "连接",
+          "选择",
+          "价值一致",
+          "亲密",
+          "承诺"
+        ],
+        "upright": {
+          "core": "这张牌不只谈爱情，也谈一个需要忠于内心价值的选择。真正的连接来自诚实与主动选择。",
+          "love": "双方存在吸引与靠近的可能，关系能否深化取决于是否愿意坦白需求并承担选择。",
+          "career": "合作、合伙或重要抉择受到关注。价值观一致比短期利益更重要。",
+          "self": "你需要让欲望、原则和行动站在同一边，而不是继续取悦所有人。",
+          "trend": "关系或合作倾向进入明确选择期，模糊状态难以长期维持。",
+          "advice": "不要只问哪条路更舒服，要问哪条路更符合你真正重视的东西。"
+        },
+        "reversed": {
+          "core": "吸引仍可能存在，但价值冲突、失衡或逃避选择正在削弱连接。",
+          "love": "沟通不对等、暧昧拉扯或承诺分歧需要被正面处理。",
+          "career": "合作目标可能不一致，或你正在违背自己的原则换取短期稳定。",
+          "self": "内在冲突让你难以决定；先辨认哪些声音属于自己。",
+          "trend": "若核心分歧不处理，关系或合作会继续消耗。",
+          "advice": "暂停迎合，把真正不能妥协的部分说清楚。"
+        }
+      }
+    },
+    {
+      "id": "major_07",
+      "slug": "the_chariot",
+      "name_en": "The Chariot",
+      "name_zh": "战车",
+      "arcana": "major",
+      "number": 7,
+      "suit": null,
+      "rank": null,
+      "element": null,
+      "image": "/cards_corrected/major/07_the_chariot.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "意志",
+          "前进",
+          "掌控",
+          "方向",
+          "胜利"
+        ],
+        "upright": {
+          "core": "当目标明确、内在力量同向时，你能够快速推进并跨越阻力。",
+          "love": "关系层面：当目标明确、内在力量同向时，你能够快速推进并跨越阻力。",
+          "career": "事业与现实层面：当目标明确、内在力量同向时，你能够快速推进并跨越阻力。",
+          "self": "自我探索中：当目标明确、内在力量同向时，你能够快速推进并跨越阻力。",
+          "trend": "若当前条件延续，当目标明确、内在力量同向时，你能够快速推进并跨越阻力。",
+          "advice": "握住方向盘，管理冲动，不要让速度代替方向。"
+        },
+        "reversed": {
+          "core": "力量彼此拉扯，急躁、失控或目标不清正在拖慢进展。",
+          "love": "关系层面：力量彼此拉扯，急躁、失控或目标不清正在拖慢进展。",
+          "career": "事业与现实层面：力量彼此拉扯，急躁、失控或目标不清正在拖慢进展。",
+          "self": "自我探索中：力量彼此拉扯，急躁、失控或目标不清正在拖慢进展。",
+          "trend": "若当前条件延续，力量彼此拉扯，急躁、失控或目标不清正在拖慢进展。",
+          "advice": "先统一动机与优先级，再重新加速。"
+        }
+      }
+    },
+    {
+      "id": "major_08",
+      "slug": "strength",
+      "name_en": "Strength",
+      "name_zh": "力量",
+      "arcana": "major",
+      "number": 8,
+      "suit": null,
+      "rank": null,
+      "element": null,
+      "image": "/cards_corrected/major/08_strength.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "勇气",
+          "温柔力量",
+          "耐心",
+          "自控",
+          "韧性"
+        ],
+        "upright": {
+          "core": "真正的力量来自稳定、自我接纳和不靠压制的勇气。",
+          "love": "关系层面：真正的力量来自稳定、自我接纳和不靠压制的勇气。",
+          "career": "事业与现实层面：真正的力量来自稳定、自我接纳和不靠压制的勇气。",
+          "self": "自我探索中：真正的力量来自稳定、自我接纳和不靠压制的勇气。",
+          "trend": "若当前条件延续，真正的力量来自稳定、自我接纳和不靠压制的勇气。",
+          "advice": "温柔但坚定地面对本能、恐惧与冲突。"
+        },
+        "reversed": {
+          "core": "自我怀疑、情绪压抑或失控正在削弱你的信心。",
+          "love": "关系层面：自我怀疑、情绪压抑或失控正在削弱你的信心。",
+          "career": "事业与现实层面：自我怀疑、情绪压抑或失控正在削弱你的信心。",
+          "self": "自我探索中：自我怀疑、情绪压抑或失控正在削弱你的信心。",
+          "trend": "若当前条件延续，自我怀疑、情绪压抑或失控正在削弱你的信心。",
+          "advice": "不要用强硬证明力量，先恢复身体和情绪的稳定。"
+        }
+      }
+    },
+    {
+      "id": "major_09",
+      "slug": "the_hermit",
+      "name_en": "The Hermit",
+      "name_zh": "隐士",
+      "arcana": "major",
+      "number": 9,
+      "suit": null,
+      "rank": null,
+      "element": null,
+      "image": "/cards_corrected/major/09_the_hermit.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "独处",
+          "内省",
+          "智慧",
+          "寻找",
+          "指引"
+        ],
+        "upright": {
+          "core": "你需要暂时离开外界噪音，寻找属于自己的答案。",
+          "love": "关系层面：你需要暂时离开外界噪音，寻找属于自己的答案。",
+          "career": "事业与现实层面：你需要暂时离开外界噪音，寻找属于自己的答案。",
+          "self": "自我探索中：你需要暂时离开外界噪音，寻找属于自己的答案。",
+          "trend": "若当前条件延续，你需要暂时离开外界噪音，寻找属于自己的答案。",
+          "advice": "放慢速度，带着明确问题独处，而不是与世界断开。"
+        },
+        "reversed": {
+          "core": "孤立、过度思考或拒绝帮助，让内省变成封闭。",
+          "love": "关系层面：孤立、过度思考或拒绝帮助，让内省变成封闭。",
+          "career": "事业与现实层面：孤立、过度思考或拒绝帮助，让内省变成封闭。",
+          "self": "自我探索中：孤立、过度思考或拒绝帮助，让内省变成封闭。",
+          "trend": "若当前条件延续，孤立、过度思考或拒绝帮助，让内省变成封闭。",
+          "advice": "重新建立可信任的连接，让洞察回到现实生活。"
+        }
+      }
+    },
+    {
+      "id": "major_10",
+      "slug": "wheel_of_fortune",
+      "name_en": "Wheel of Fortune",
+      "name_zh": "命运之轮",
+      "arcana": "major",
+      "number": 10,
+      "suit": null,
+      "rank": null,
+      "element": null,
+      "image": "/cards_corrected/major/10_wheel_of_fortune.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "周期",
+          "转折",
+          "机遇",
+          "变化",
+          "命运"
+        ],
+        "upright": {
+          "core": "局面进入转折点，外部变化正在打开新的可能。",
+          "love": "关系层面：局面进入转折点，外部变化正在打开新的可能。",
+          "career": "事业与现实层面：局面进入转折点，外部变化正在打开新的可能。",
+          "self": "自我探索中：局面进入转折点，外部变化正在打开新的可能。",
+          "trend": "若当前条件延续，局面进入转折点，外部变化正在打开新的可能。",
+          "advice": "顺势行动，同时把注意力放在你能影响的部分。"
+        },
+        "reversed": {
+          "core": "变化受阻、重复旧循环或暂时走低，提醒你调整应对方式。",
+          "love": "关系层面：变化受阻、重复旧循环或暂时走低，提醒你调整应对方式。",
+          "career": "事业与现实层面：变化受阻、重复旧循环或暂时走低，提醒你调整应对方式。",
+          "self": "自我探索中：变化受阻、重复旧循环或暂时走低，提醒你调整应对方式。",
+          "trend": "若当前条件延续，变化受阻、重复旧循环或暂时走低，提醒你调整应对方式。",
+          "advice": "不要执着控制周期，先识别反复出现的模式。"
+        }
+      }
+    },
+    {
+      "id": "major_11",
+      "slug": "justice",
+      "name_en": "Justice",
+      "name_zh": "正义",
+      "arcana": "major",
+      "number": 11,
+      "suit": null,
+      "rank": null,
+      "element": null,
+      "image": "/cards_corrected/major/11_justice.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "公平",
+          "真相",
+          "责任",
+          "因果",
+          "决定"
+        ],
+        "upright": {
+          "core": "清晰事实和诚实承担会带来更公平的结果。",
+          "love": "关系层面：清晰事实和诚实承担会带来更公平的结果。",
+          "career": "事业与现实层面：清晰事实和诚实承担会带来更公平的结果。",
+          "self": "自我探索中：清晰事实和诚实承担会带来更公平的结果。",
+          "trend": "若当前条件延续，清晰事实和诚实承担会带来更公平的结果。",
+          "advice": "依据证据做决定，并接受选择带来的后果。"
+        },
+        "reversed": {
+          "core": "偏见、逃避责任或信息不对称正在扭曲判断。",
+          "love": "关系层面：偏见、逃避责任或信息不对称正在扭曲判断。",
+          "career": "事业与现实层面：偏见、逃避责任或信息不对称正在扭曲判断。",
+          "self": "自我探索中：偏见、逃避责任或信息不对称正在扭曲判断。",
+          "trend": "若当前条件延续，偏见、逃避责任或信息不对称正在扭曲判断。",
+          "advice": "补齐事实，承认自己的部分，再要求公平。"
+        }
+      }
+    },
+    {
+      "id": "major_12",
+      "slug": "the_hanged_man",
+      "name_en": "The Hanged Man",
+      "name_zh": "倒吊人",
+      "arcana": "major",
+      "number": 12,
+      "suit": null,
+      "rank": null,
+      "element": null,
+      "image": "/cards_corrected/major/12_the_hanged_man.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "暂停",
+          "换位思考",
+          "臣服",
+          "等待",
+          "新视角"
+        ],
+        "upright": {
+          "core": "暂时停住不是失败，而是为了从不同角度看见真正需要改变的东西。",
+          "love": "关系层面：暂时停住不是失败，而是为了从不同角度看见真正需要改变的东西。",
+          "career": "事业与现实层面：暂时停住不是失败，而是为了从不同角度看见真正需要改变的东西。",
+          "self": "自我探索中：暂时停住不是失败，而是为了从不同角度看见真正需要改变的东西。",
+          "trend": "若当前条件延续，暂时停住不是失败，而是为了从不同角度看见真正需要改变的东西。",
+          "advice": "停止无效用力，允许答案在暂停中浮现。"
+        },
+        "reversed": {
+          "core": "拖延、无意义牺牲或拒绝放手，让停顿变成消耗。",
+          "love": "关系层面：拖延、无意义牺牲或拒绝放手，让停顿变成消耗。",
+          "career": "事业与现实层面：拖延、无意义牺牲或拒绝放手，让停顿变成消耗。",
+          "self": "自我探索中：拖延、无意义牺牲或拒绝放手，让停顿变成消耗。",
+          "trend": "若当前条件延续，拖延、无意义牺牲或拒绝放手，让停顿变成消耗。",
+          "advice": "为等待设定期限，放下无法带来改变的牺牲。"
+        }
+      }
+    },
+    {
+      "id": "major_13",
+      "slug": "death",
+      "name_en": "Death",
+      "name_zh": "死神",
+      "arcana": "major",
+      "number": 13,
+      "suit": null,
+      "rank": null,
+      "element": null,
+      "image": "/cards_corrected/major/13_death.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "结束",
+          "转化",
+          "放下",
+          "更新",
+          "不可逆变化"
+        ],
+        "upright": {
+          "core": "一个阶段已经走到尽头，真正的更新需要允许旧形式结束。",
+          "love": "关系层面：一个阶段已经走到尽头，真正的更新需要允许旧形式结束。",
+          "career": "事业与现实层面：一个阶段已经走到尽头，真正的更新需要允许旧形式结束。",
+          "self": "自我探索中：一个阶段已经走到尽头，真正的更新需要允许旧形式结束。",
+          "trend": "若当前条件延续，一个阶段已经走到尽头，真正的更新需要允许旧形式结束。",
+          "advice": "有意识地告别，为新阶段腾出空间。"
+        },
+        "reversed": {
+          "core": "抗拒结束、反复回头或停在过渡期，让变化更加痛苦。",
+          "love": "关系层面：抗拒结束、反复回头或停在过渡期，让变化更加痛苦。",
+          "career": "事业与现实层面：抗拒结束、反复回头或停在过渡期，让变化更加痛苦。",
+          "self": "自我探索中：抗拒结束、反复回头或停在过渡期，让变化更加痛苦。",
+          "trend": "若当前条件延续，抗拒结束、反复回头或停在过渡期，让变化更加痛苦。",
+          "advice": "承认已经无法恢复原样，并选择下一步如何生活。"
+        }
+      }
+    },
+    {
+      "id": "major_14",
+      "slug": "temperance",
+      "name_en": "Temperance",
+      "name_zh": "节制",
+      "arcana": "major",
+      "number": 14,
+      "suit": null,
+      "rank": null,
+      "element": null,
+      "image": "/cards_corrected/major/14_temperance.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "平衡",
+          "调和",
+          "节制",
+          "疗愈",
+          "整合"
+        ],
+        "upright": {
+          "core": "不同力量正在找到可持续的配比，缓慢调整比极端选择更有效。",
+          "love": "关系层面：不同力量正在找到可持续的配比，缓慢调整比极端选择更有效。",
+          "career": "事业与现实层面：不同力量正在找到可持续的配比，缓慢调整比极端选择更有效。",
+          "self": "自我探索中：不同力量正在找到可持续的配比，缓慢调整比极端选择更有效。",
+          "trend": "若当前条件延续，不同力量正在找到可持续的配比，缓慢调整比极端选择更有效。",
+          "advice": "保持节奏，用小幅持续修正代替一次性解决。"
+        },
+        "reversed": {
+          "core": "失衡、过量或节奏混乱正在消耗你的稳定。",
+          "love": "关系层面：失衡、过量或节奏混乱正在消耗你的稳定。",
+          "career": "事业与现实层面：失衡、过量或节奏混乱正在消耗你的稳定。",
+          "self": "自我探索中：失衡、过量或节奏混乱正在消耗你的稳定。",
+          "trend": "若当前条件延续，失衡、过量或节奏混乱正在消耗你的稳定。",
+          "advice": "减少刺激和过度投入，先恢复基本秩序。"
+        }
+      }
+    },
+    {
+      "id": "major_15",
+      "slug": "the_devil",
+      "name_en": "The Devil",
+      "name_zh": "恶魔",
+      "arcana": "major",
+      "number": 15,
+      "suit": null,
+      "rank": null,
+      "element": null,
+      "image": "/cards_corrected/major/15_the_devil.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "欲望",
+          "束缚",
+          "依赖",
+          "阴影",
+          "物质诱惑"
+        ],
+        "upright": {
+          "core": "某种欲望、恐惧或依赖正在获得过多控制权，但锁链并非完全无法解开。",
+          "love": "关系层面：某种欲望、恐惧或依赖正在获得过多控制权，但锁链并非完全无法解开。",
+          "career": "事业与现实层面：某种欲望、恐惧或依赖正在获得过多控制权，但锁链并非完全无法解开。",
+          "self": "自我探索中：某种欲望、恐惧或依赖正在获得过多控制权，但锁链并非完全无法解开。",
+          "trend": "若当前条件延续，某种欲望、恐惧或依赖正在获得过多控制权，但锁链并非完全无法解开。",
+          "advice": "诚实看见交换代价，收回被习惯和诱惑交出的选择权。"
+        },
+        "reversed": {
+          "core": "你开始识别束缚并有机会松开它，也可能仍在否认问题。",
+          "love": "关系层面：你开始识别束缚并有机会松开它，也可能仍在否认问题。",
+          "career": "事业与现实层面：你开始识别束缚并有机会松开它，也可能仍在否认问题。",
+          "self": "自我探索中：你开始识别束缚并有机会松开它，也可能仍在否认问题。",
+          "trend": "若当前条件延续，你开始识别束缚并有机会松开它，也可能仍在否认问题。",
+          "advice": "用具体边界和替代行动完成脱离，不只依靠意志。"
+        }
+      }
+    },
+    {
+      "id": "major_16",
+      "slug": "the_tower",
+      "name_en": "The Tower",
+      "name_zh": "高塔",
+      "arcana": "major",
+      "number": 16,
+      "suit": null,
+      "rank": null,
+      "element": null,
+      "image": "/cards_corrected/major/16_the_tower.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "突变",
+          "崩塌",
+          "真相",
+          "释放",
+          "重建"
+        ],
+        "upright": {
+          "core": "不稳固的结构正在被打破，突发变化会暴露此前无法继续忽视的问题。",
+          "love": "关系层面：不稳固的结构正在被打破，突发变化会暴露此前无法继续忽视的问题。",
+          "career": "事业与现实层面：不稳固的结构正在被打破，突发变化会暴露此前无法继续忽视的问题。",
+          "self": "自我探索中：不稳固的结构正在被打破，突发变化会暴露此前无法继续忽视的问题。",
+          "trend": "若当前条件延续，不稳固的结构正在被打破，突发变化会暴露此前无法继续忽视的问题。",
+          "advice": "先确保安全和基本稳定，再决定如何重建。"
+        },
+        "reversed": {
+          "core": "危机可能被延迟、内化或部分避免，但根本裂缝仍需处理。",
+          "love": "关系层面：危机可能被延迟、内化或部分避免，但根本裂缝仍需处理。",
+          "career": "事业与现实层面：危机可能被延迟、内化或部分避免，但根本裂缝仍需处理。",
+          "self": "自我探索中：危机可能被延迟、内化或部分避免，但根本裂缝仍需处理。",
+          "trend": "若当前条件延续，危机可能被延迟、内化或部分避免，但根本裂缝仍需处理。",
+          "advice": "不要为了维持表面完整而错过主动修复的窗口。"
+        }
+      }
+    },
+    {
+      "id": "major_17",
+      "slug": "the_star",
+      "name_en": "The Star",
+      "name_zh": "星星",
+      "arcana": "major",
+      "number": 17,
+      "suit": null,
+      "rank": null,
+      "element": null,
+      "image": "/cards_corrected/major/17_the_star.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "希望",
+          "疗愈",
+          "真诚",
+          "灵感",
+          "更新"
+        ],
+        "upright": {
+          "core": "经历混乱后，希望和方向感正在恢复，你可以更真实地做自己。",
+          "love": "关系层面：经历混乱后，希望和方向感正在恢复，你可以更真实地做自己。",
+          "career": "事业与现实层面：经历混乱后，希望和方向感正在恢复，你可以更真实地做自己。",
+          "self": "自我探索中：经历混乱后，希望和方向感正在恢复，你可以更真实地做自己。",
+          "trend": "若当前条件延续，经历混乱后，希望和方向感正在恢复，你可以更真实地做自己。",
+          "advice": "保持开放，并用持续的小行动保护这份希望。"
+        },
+        "reversed": {
+          "core": "失望、自我怀疑或与内在愿望失联，让希望变得微弱。",
+          "love": "关系层面：失望、自我怀疑或与内在愿望失联，让希望变得微弱。",
+          "career": "事业与现实层面：失望、自我怀疑或与内在愿望失联，让希望变得微弱。",
+          "self": "自我探索中：失望、自我怀疑或与内在愿望失联，让希望变得微弱。",
+          "trend": "若当前条件延续，失望、自我怀疑或与内在愿望失联，让希望变得微弱。",
+          "advice": "降低对立刻好转的要求，先寻找仍然存在的一点光。"
+        }
+      }
+    },
+    {
+      "id": "major_18",
+      "slug": "the_moon",
+      "name_en": "The Moon",
+      "name_zh": "月亮",
+      "arcana": "major",
+      "number": 18,
+      "suit": null,
+      "rank": null,
+      "element": null,
+      "image": "/cards_corrected/major/18_the_moon.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "pilot_complete",
+      "interpretation": {
+        "keywords": [
+          "不确定",
+          "直觉",
+          "投射",
+          "潜意识",
+          "迷雾"
+        ],
+        "upright": {
+          "core": "信息还不完整，情绪和想象正在放大不确定感。直觉值得听，但需要与事实核对。",
+          "love": "关系里可能有未说出口的情绪、猜测或暧昧信号。现在不宜只凭感觉下结论。",
+          "career": "方向暂时模糊，隐藏条件尚未浮现；适合观察、查证和保留调整空间。",
+          "self": "梦境、焦虑和反复出现的感受正在提醒你关注被压下去的部分。",
+          "trend": "短期仍有迷雾，事情可能出现反复，真相会逐步而非一次性显现。",
+          "advice": "记录感受，同时核实事实；不要让恐惧替你完成推理。"
+        },
+        "reversed": {
+          "core": "迷雾开始散开，或你正在识别此前的误解与自我欺骗。另一种可能是焦虑已让判断失真。",
+          "love": "隐瞒或误会可能逐渐暴露，关系需要更直接的确认。",
+          "career": "模糊条件开始清晰，但不要因为急于安心而忽略残留风险。",
+          "self": "你正在从情绪洪流中恢复辨别力，也需要正视长期回避的问题。",
+          "trend": "局面有澄清倾向，但过程可能伴随不舒服的事实。",
+          "advice": "把猜测变成可验证的问题，一项一项确认。"
+        }
+      }
+    },
+    {
+      "id": "major_19",
+      "slug": "the_sun",
+      "name_en": "The Sun",
+      "name_zh": "太阳",
+      "arcana": "major",
+      "number": 19,
+      "suit": null,
+      "rank": null,
+      "element": null,
+      "image": "/cards_corrected/major/19_the_sun.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "喜悦",
+          "清晰",
+          "活力",
+          "成功",
+          "坦诚"
+        ],
+        "upright": {
+          "core": "局面趋向明朗，生命力、认可和真实表达正在增加。",
+          "love": "关系层面：局面趋向明朗，生命力、认可和真实表达正在增加。",
+          "career": "事业与现实层面：局面趋向明朗，生命力、认可和真实表达正在增加。",
+          "self": "自我探索中：局面趋向明朗，生命力、认可和真实表达正在增加。",
+          "trend": "若当前条件延续，局面趋向明朗，生命力、认可和真实表达正在增加。",
+          "advice": "允许自己享受成果，也把好消息落实到现实。"
+        },
+        "reversed": {
+          "core": "快乐被遮挡、期待过高或表面乐观掩盖了疲惫。",
+          "love": "关系层面：快乐被遮挡、期待过高或表面乐观掩盖了疲惫。",
+          "career": "事业与现实层面：快乐被遮挡、期待过高或表面乐观掩盖了疲惫。",
+          "self": "自我探索中：快乐被遮挡、期待过高或表面乐观掩盖了疲惫。",
+          "trend": "若当前条件延续，快乐被遮挡、期待过高或表面乐观掩盖了疲惫。",
+          "advice": "找出真正阻挡活力的因素，不要强迫自己积极。"
+        }
+      }
+    },
+    {
+      "id": "major_20",
+      "slug": "judgement",
+      "name_en": "Judgement",
+      "name_zh": "审判",
+      "arcana": "major",
+      "number": 20,
+      "suit": null,
+      "rank": null,
+      "element": null,
+      "image": "/cards_corrected/major/20_judgement.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "觉醒",
+          "召唤",
+          "复盘",
+          "宽恕",
+          "决定"
+        ],
+        "upright": {
+          "core": "过去的经验正在汇成一次清醒判断，你被邀请回应更真实的方向。",
+          "love": "关系层面：过去的经验正在汇成一次清醒判断，你被邀请回应更真实的方向。",
+          "career": "事业与现实层面：过去的经验正在汇成一次清醒判断，你被邀请回应更真实的方向。",
+          "self": "自我探索中：过去的经验正在汇成一次清醒判断，你被邀请回应更真实的方向。",
+          "trend": "若当前条件延续，过去的经验正在汇成一次清醒判断，你被邀请回应更真实的方向。",
+          "advice": "诚实复盘，做出能让未来的你尊重的决定。"
+        },
+        "reversed": {
+          "core": "自我批判、逃避召唤或迟迟不肯作出最终判断。",
+          "love": "关系层面：自我批判、逃避召唤或迟迟不肯作出最终判断。",
+          "career": "事业与现实层面：自我批判、逃避召唤或迟迟不肯作出最终判断。",
+          "self": "自我探索中：自我批判、逃避召唤或迟迟不肯作出最终判断。",
+          "trend": "若当前条件延续，自我批判、逃避召唤或迟迟不肯作出最终判断。",
+          "advice": "区分负责与惩罚自己，然后完成必须完成的决定。"
+        }
+      }
+    },
+    {
+      "id": "major_21",
+      "slug": "the_world",
+      "name_en": "The World",
+      "name_zh": "世界",
+      "arcana": "major",
+      "number": 21,
+      "suit": null,
+      "rank": null,
+      "element": null,
+      "image": "/cards_corrected/major/21_the_world.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "完成",
+          "整合",
+          "成熟",
+          "圆满",
+          "新周期"
+        ],
+        "upright": {
+          "core": "一个重要周期正在完成，经验、能力和身份开始形成完整闭环。",
+          "love": "关系层面：一个重要周期正在完成，经验、能力和身份开始形成完整闭环。",
+          "career": "事业与现实层面：一个重要周期正在完成，经验、能力和身份开始形成完整闭环。",
+          "self": "自我探索中：一个重要周期正在完成，经验、能力和身份开始形成完整闭环。",
+          "trend": "若当前条件延续，一个重要周期正在完成，经验、能力和身份开始形成完整闭环。",
+          "advice": "承认成果、完成收尾，再进入下一阶段。"
+        },
+        "reversed": {
+          "core": "事情接近完成却仍有缺口，或你因害怕结束而不断延长过程。",
+          "love": "关系层面：事情接近完成却仍有缺口，或你因害怕结束而不断延长过程。",
+          "career": "事业与现实层面：事情接近完成却仍有缺口，或你因害怕结束而不断延长过程。",
+          "self": "自我探索中：事情接近完成却仍有缺口，或你因害怕结束而不断延长过程。",
+          "trend": "若当前条件延续，事情接近完成却仍有缺口，或你因害怕结束而不断延长过程。",
+          "advice": "找出最后一个未闭合环节，完成它而不是另开新局。"
+        }
+      }
+    },
+    {
+      "id": "cups_01",
+      "slug": "ace_of_cups",
+      "name_en": "Ace of Cups",
+      "name_zh": "圣杯一",
+      "arcana": "minor",
+      "number": 1,
+      "suit": "cups",
+      "rank": "ace",
+      "element": "water",
+      "image": "/cards_corrected/cups/01_ace_of_cups.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "情感萌芽",
+          "爱",
+          "直觉",
+          "开放",
+          "滋养"
+        ],
+        "upright": {
+          "core": "新的情感、连接或创造感正在涌现，内心有空间重新流动。",
+          "love": "关系层面：新的情感、连接或创造感正在涌现，内心有空间重新流动。",
+          "career": "事业与现实层面：新的情感、连接或创造感正在涌现，内心有空间重新流动。",
+          "self": "自我探索中：新的情感、连接或创造感正在涌现，内心有空间重新流动。",
+          "trend": "若当前条件延续，新的情感、连接或创造感正在涌现，内心有空间重新流动。",
+          "advice": "保持开放，并用真实回应承接这份感受。"
+        },
+        "reversed": {
+          "core": "情绪被压住、付出失衡或期待落空，内在容器需要先被照顾。",
+          "love": "关系层面：情绪被压住、付出失衡或期待落空，内在容器需要先被照顾。",
+          "career": "事业与现实层面：情绪被压住、付出失衡或期待落空，内在容器需要先被照顾。",
+          "self": "自我探索中：情绪被压住、付出失衡或期待落空，内在容器需要先被照顾。",
+          "trend": "若当前条件延续，情绪被压住、付出失衡或期待落空，内在容器需要先被照顾。",
+          "advice": "停止透支式付出，先补回自己的情绪资源。"
+        }
+      }
+    },
+    {
+      "id": "cups_02",
+      "slug": "two_of_cups",
+      "name_en": "Two of Cups",
+      "name_zh": "圣杯二",
+      "arcana": "minor",
+      "number": 2,
+      "suit": "cups",
+      "rank": "two",
+      "element": "water",
+      "image": "/cards_corrected/cups/02_two_of_cups.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "互相吸引",
+          "合作",
+          "和解",
+          "平等",
+          "连接"
+        ],
+        "upright": {
+          "core": "双方有建立平等连接、合作或和解的可能。",
+          "love": "关系层面：双方有建立平等连接、合作或和解的可能。",
+          "career": "事业与现实层面：双方有建立平等连接、合作或和解的可能。",
+          "self": "自我探索中：双方有建立平等连接、合作或和解的可能。",
+          "trend": "若当前条件延续，双方有建立平等连接、合作或和解的可能。",
+          "advice": "确认彼此意愿，让互相回应代替单方面想象。"
+        },
+        "reversed": {
+          "core": "关系失衡、沟通断裂或价值不合正在削弱连接。",
+          "love": "关系层面：关系失衡、沟通断裂或价值不合正在削弱连接。",
+          "career": "事业与现实层面：关系失衡、沟通断裂或价值不合正在削弱连接。",
+          "self": "自我探索中：关系失衡、沟通断裂或价值不合正在削弱连接。",
+          "trend": "若当前条件延续，关系失衡、沟通断裂或价值不合正在削弱连接。",
+          "advice": "直接确认差异，不要只靠默契维持关系。"
+        }
+      }
+    },
+    {
+      "id": "cups_03",
+      "slug": "three_of_cups",
+      "name_en": "Three of Cups",
+      "name_zh": "圣杯三",
+      "arcana": "minor",
+      "number": 3,
+      "suit": "cups",
+      "rank": "three",
+      "element": "water",
+      "image": "/cards_corrected/cups/03_three_of_cups.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "庆祝",
+          "友谊",
+          "支持",
+          "分享",
+          "社群"
+        ],
+        "upright": {
+          "core": "可靠的人际支持和共同喜悦正在增强你的能量。",
+          "love": "关系层面：可靠的人际支持和共同喜悦正在增强你的能量。",
+          "career": "事业与现实层面：可靠的人际支持和共同喜悦正在增强你的能量。",
+          "self": "自我探索中：可靠的人际支持和共同喜悦正在增强你的能量。",
+          "trend": "若当前条件延续，可靠的人际支持和共同喜悦正在增强你的能量。",
+          "advice": "接受帮助，也真诚分享成果。"
+        },
+        "reversed": {
+          "core": "过度社交、圈层摩擦或表面热闹掩盖了真实疏离。",
+          "love": "关系层面：过度社交、圈层摩擦或表面热闹掩盖了真实疏离。",
+          "career": "事业与现实层面：过度社交、圈层摩擦或表面热闹掩盖了真实疏离。",
+          "self": "自我探索中：过度社交、圈层摩擦或表面热闹掩盖了真实疏离。",
+          "trend": "若当前条件延续，过度社交、圈层摩擦或表面热闹掩盖了真实疏离。",
+          "advice": "减少无效应酬，回到真正互相支持的关系。"
+        }
+      }
+    },
+    {
+      "id": "cups_04",
+      "slug": "four_of_cups",
+      "name_en": "Four of Cups",
+      "name_zh": "圣杯四",
+      "arcana": "minor",
+      "number": 4,
+      "suit": "cups",
+      "rank": "four",
+      "element": "water",
+      "image": "/cards_corrected/cups/04_four_of_cups.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "冷淡",
+          "停滞",
+          "重新评估",
+          "无聊",
+          "错过"
+        ],
+        "upright": {
+          "core": "情绪暂时停滞，你可能因失望或麻木看不见眼前的机会。",
+          "love": "关系层面：情绪暂时停滞，你可能因失望或麻木看不见眼前的机会。",
+          "career": "事业与现实层面：情绪暂时停滞，你可能因失望或麻木看不见眼前的机会。",
+          "self": "自我探索中：情绪暂时停滞，你可能因失望或麻木看不见眼前的机会。",
+          "trend": "若当前条件延续，情绪暂时停滞，你可能因失望或麻木看不见眼前的机会。",
+          "advice": "先确认真正不满足的是什么，再决定接受或拒绝。"
+        },
+        "reversed": {
+          "core": "你开始重新投入生活，也可能因焦躁而随便抓住一个选项。",
+          "love": "关系层面：你开始重新投入生活，也可能因焦躁而随便抓住一个选项。",
+          "career": "事业与现实层面：你开始重新投入生活，也可能因焦躁而随便抓住一个选项。",
+          "self": "自我探索中：你开始重新投入生活，也可能因焦躁而随便抓住一个选项。",
+          "trend": "若当前条件延续，你开始重新投入生活，也可能因焦躁而随便抓住一个选项。",
+          "advice": "保持觉察地行动，不要从麻木直接跳到冲动。"
+        }
+      }
+    },
+    {
+      "id": "cups_05",
+      "slug": "five_of_cups",
+      "name_en": "Five of Cups",
+      "name_zh": "圣杯五",
+      "arcana": "minor",
+      "number": 5,
+      "suit": "cups",
+      "rank": "five",
+      "element": "water",
+      "image": "/cards_corrected/cups/05_five_of_cups.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "失落",
+          "遗憾",
+          "悲伤",
+          "剩余资源",
+          "接受"
+        ],
+        "upright": {
+          "core": "注意力被失去的部分占据，但仍有支持和可能尚未消失。",
+          "love": "关系层面：注意力被失去的部分占据，但仍有支持和可能尚未消失。",
+          "career": "事业与现实层面：注意力被失去的部分占据，但仍有支持和可能尚未消失。",
+          "self": "自我探索中：注意力被失去的部分占据，但仍有支持和可能尚未消失。",
+          "trend": "若当前条件延续，注意力被失去的部分占据，但仍有支持和可能尚未消失。",
+          "advice": "允许悲伤，同时慢慢转身看见仍然拥有的东西。"
+        },
+        "reversed": {
+          "core": "你开始接受损失并恢复，也可能仍困在自责中。",
+          "love": "关系层面：你开始接受损失并恢复，也可能仍困在自责中。",
+          "career": "事业与现实层面：你开始接受损失并恢复，也可能仍困在自责中。",
+          "self": "自我探索中：你开始接受损失并恢复，也可能仍困在自责中。",
+          "trend": "若当前条件延续，你开始接受损失并恢复，也可能仍困在自责中。",
+          "advice": "把复盘用于修复，不要把它变成长期惩罚。"
+        }
+      }
+    },
+    {
+      "id": "cups_06",
+      "slug": "six_of_cups",
+      "name_en": "Six of Cups",
+      "name_zh": "圣杯六",
+      "arcana": "minor",
+      "number": 6,
+      "suit": "cups",
+      "rank": "six",
+      "element": "water",
+      "image": "/cards_corrected/cups/06_six_of_cups.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "怀旧",
+          "纯真",
+          "善意",
+          "旧人",
+          "记忆"
+        ],
+        "upright": {
+          "core": "过去的记忆、旧关系或单纯善意正在影响现在。",
+          "love": "关系层面：过去的记忆、旧关系或单纯善意正在影响现在。",
+          "career": "事业与现实层面：过去的记忆、旧关系或单纯善意正在影响现在。",
+          "self": "自我探索中：过去的记忆、旧关系或单纯善意正在影响现在。",
+          "trend": "若当前条件延续，过去的记忆、旧关系或单纯善意正在影响现在。",
+          "advice": "珍惜温柔经验，但用成年人的边界处理当下。"
+        },
+        "reversed": {
+          "core": "怀旧变成逃避现实，旧模式或理想化记忆正在拉住你。",
+          "love": "关系层面：怀旧变成逃避现实，旧模式或理想化记忆正在拉住你。",
+          "career": "事业与现实层面：怀旧变成逃避现实，旧模式或理想化记忆正在拉住你。",
+          "self": "自我探索中：怀旧变成逃避现实，旧模式或理想化记忆正在拉住你。",
+          "trend": "若当前条件延续，怀旧变成逃避现实，旧模式或理想化记忆正在拉住你。",
+          "advice": "区分真实过去与被美化的过去。"
+        }
+      }
+    },
+    {
+      "id": "cups_07",
+      "slug": "seven_of_cups",
+      "name_en": "Seven of Cups",
+      "name_zh": "圣杯七",
+      "arcana": "minor",
+      "number": 7,
+      "suit": "cups",
+      "rank": "seven",
+      "element": "water",
+      "image": "/cards_corrected/cups/07_seven_of_cups.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "选择",
+          "幻想",
+          "诱惑",
+          "可能性",
+          "辨别"
+        ],
+        "upright": {
+          "core": "选择很多，但并非每个选项都具有现实基础。",
+          "love": "关系层面：选择很多，但并非每个选项都具有现实基础。",
+          "career": "事业与现实层面：选择很多，但并非每个选项都具有现实基础。",
+          "self": "自我探索中：选择很多，但并非每个选项都具有现实基础。",
+          "trend": "若当前条件延续，选择很多，但并非每个选项都具有现实基础。",
+          "advice": "先排除不符合价值与条件的幻想，再集中选择。"
+        },
+        "reversed": {
+          "core": "迷雾开始散去，或你仍因选择过载而无法行动。",
+          "love": "关系层面：迷雾开始散去，或你仍因选择过载而无法行动。",
+          "career": "事业与现实层面：迷雾开始散去，或你仍因选择过载而无法行动。",
+          "self": "自我探索中：迷雾开始散去，或你仍因选择过载而无法行动。",
+          "trend": "若当前条件延续，迷雾开始散去，或你仍因选择过载而无法行动。",
+          "advice": "用事实、成本和时间限制缩小选项。"
+        }
+      }
+    },
+    {
+      "id": "cups_08",
+      "slug": "eight_of_cups",
+      "name_en": "Eight of Cups",
+      "name_zh": "圣杯八",
+      "arcana": "minor",
+      "number": 8,
+      "suit": "cups",
+      "rank": "eight",
+      "element": "water",
+      "image": "/cards_corrected/cups/08_eight_of_cups.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "pilot_complete",
+      "interpretation": {
+        "keywords": [
+          "离开",
+          "放下",
+          "寻找意义",
+          "情绪转向",
+          "告别"
+        ],
+        "upright": {
+          "core": "你可能已经意识到，某件事即使看起来完整，也无法继续满足内心。离开是为了寻找更真实的方向。",
+          "love": "一方可能正在情绪抽离，或关系需要告别旧模式。它不必然代表分手，但要求诚实面对不满足。",
+          "career": "现有工作或目标难以带来意义感，转向的念头正在增强。",
+          "self": "你正在舍弃曾经重要、如今却不再适合自己的东西。",
+          "trend": "局面倾向逐渐疏离或转向，旧状态较难原样维持。",
+          "advice": "确认自己是在清醒离开，而不是在困难出现时习惯性逃跑。"
+        },
+        "reversed": {
+          "core": "你在留下与离开之间反复，熟悉感让你难以承认改变已经发生。",
+          "love": "可能出现回头、拖延结束或明知不满足仍不愿放手的状态。",
+          "career": "对改变的恐惧让你停留，但仓促辞离也未必解决根本问题。",
+          "self": "先理解自己舍不得的究竟是人和事，还是投入成本与身份认同。",
+          "trend": "短期仍会拉扯，决定可能延后，但核心不满不会自动消失。",
+          "advice": "为留下和离开分别设定条件，用现实标准结束无限犹豫。"
+        }
+      }
+    },
+    {
+      "id": "cups_09",
+      "slug": "nine_of_cups",
+      "name_en": "Nine of Cups",
+      "name_zh": "圣杯九",
+      "arcana": "minor",
+      "number": 9,
+      "suit": "cups",
+      "rank": "nine",
+      "element": "water",
+      "image": "/cards_corrected/cups/09_nine_of_cups.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "满足",
+          "愿望",
+          "享受",
+          "自信",
+          "感恩"
+        ],
+        "upright": {
+          "core": "个人愿望和情绪满足感上升，你有理由享受阶段性成果。",
+          "love": "关系层面：个人愿望和情绪满足感上升，你有理由享受阶段性成果。",
+          "career": "事业与现实层面：个人愿望和情绪满足感上升，你有理由享受阶段性成果。",
+          "self": "自我探索中：个人愿望和情绪满足感上升，你有理由享受阶段性成果。",
+          "trend": "若当前条件延续，个人愿望和情绪满足感上升，你有理由享受阶段性成果。",
+          "advice": "接住快乐，同时留意满足是否也惠及长期生活。"
+        },
+        "reversed": {
+          "core": "短暂享乐、虚荣或愿望实现后仍感空虚。",
+          "love": "关系层面：短暂享乐、虚荣或愿望实现后仍感空虚。",
+          "career": "事业与现实层面：短暂享乐、虚荣或愿望实现后仍感空虚。",
+          "self": "自我探索中：短暂享乐、虚荣或愿望实现后仍感空虚。",
+          "trend": "若当前条件延续，短暂享乐、虚荣或愿望实现后仍感空虚。",
+          "advice": "问清真正想满足的需求，而不是不断增加刺激。"
+        }
+      }
+    },
+    {
+      "id": "cups_10",
+      "slug": "ten_of_cups",
+      "name_en": "Ten of Cups",
+      "name_zh": "圣杯十",
+      "arcana": "minor",
+      "number": 10,
+      "suit": "cups",
+      "rank": "ten",
+      "element": "water",
+      "image": "/cards_corrected/cups/10_ten_of_cups.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "情感圆满",
+          "家庭",
+          "归属",
+          "和谐",
+          "共享幸福"
+        ],
+        "upright": {
+          "core": "关系与归属感趋向稳定，幸福来自共同建设而非单人幻想。",
+          "love": "关系层面：关系与归属感趋向稳定，幸福来自共同建设而非单人幻想。",
+          "career": "事业与现实层面：关系与归属感趋向稳定，幸福来自共同建设而非单人幻想。",
+          "self": "自我探索中：关系与归属感趋向稳定，幸福来自共同建设而非单人幻想。",
+          "trend": "若当前条件延续，关系与归属感趋向稳定，幸福来自共同建设而非单人幻想。",
+          "advice": "表达感谢，并持续维护日常中的信任。"
+        },
+        "reversed": {
+          "core": "家庭或关系表面完整，内部却存在期待落差与沟通问题。",
+          "love": "关系层面：家庭或关系表面完整，内部却存在期待落差与沟通问题。",
+          "career": "事业与现实层面：家庭或关系表面完整，内部却存在期待落差与沟通问题。",
+          "self": "自我探索中：家庭或关系表面完整，内部却存在期待落差与沟通问题。",
+          "trend": "若当前条件延续，家庭或关系表面完整，内部却存在期待落差与沟通问题。",
+          "advice": "放下完美图景，处理真实成员的真实需要。"
+        }
+      }
+    },
+    {
+      "id": "cups_11",
+      "slug": "page_of_cups",
+      "name_en": "Page of Cups",
+      "name_zh": "圣杯侍从",
+      "arcana": "minor",
+      "number": 11,
+      "suit": "cups",
+      "rank": "page",
+      "element": "water",
+      "image": "/cards_corrected/cups/11_page_of_cups.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "情感讯息",
+          "好奇",
+          "温柔",
+          "想象力",
+          "初次表达"
+        ],
+        "upright": {
+          "core": "柔软的新感受或消息正在出现，值得以好奇而非防御回应。",
+          "love": "关系层面：柔软的新感受或消息正在出现，值得以好奇而非防御回应。",
+          "career": "事业与现实层面：柔软的新感受或消息正在出现，值得以好奇而非防御回应。",
+          "self": "自我探索中：柔软的新感受或消息正在出现，值得以好奇而非防御回应。",
+          "trend": "若当前条件延续，柔软的新感受或消息正在出现，值得以好奇而非防御回应。",
+          "advice": "坦率表达，但不要把想象直接当成承诺。"
+        },
+        "reversed": {
+          "core": "情绪不成熟、过度敏感或消息令人失望。",
+          "love": "关系层面：情绪不成熟、过度敏感或消息令人失望。",
+          "career": "事业与现实层面：情绪不成熟、过度敏感或消息令人失望。",
+          "self": "自我探索中：情绪不成熟、过度敏感或消息令人失望。",
+          "trend": "若当前条件延续，情绪不成熟、过度敏感或消息令人失望。",
+          "advice": "先安顿情绪，再用清楚语言确认事实。"
+        }
+      }
+    },
+    {
+      "id": "cups_12",
+      "slug": "knight_of_cups",
+      "name_en": "Knight of Cups",
+      "name_zh": "圣杯骑士",
+      "arcana": "minor",
+      "number": 12,
+      "suit": "cups",
+      "rank": "knight",
+      "element": "water",
+      "image": "/cards_corrected/cups/12_knight_of_cups.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "浪漫行动",
+          "邀请",
+          "追随内心",
+          "魅力",
+          "理想主义"
+        ],
+        "upright": {
+          "core": "情感表达和主动靠近正在增加，行动带有浪漫与理想色彩。",
+          "love": "关系层面：情感表达和主动靠近正在增加，行动带有浪漫与理想色彩。",
+          "career": "事业与现实层面：情感表达和主动靠近正在增加，行动带有浪漫与理想色彩。",
+          "self": "自我探索中：情感表达和主动靠近正在增加，行动带有浪漫与理想色彩。",
+          "trend": "若当前条件延续，情感表达和主动靠近正在增加，行动带有浪漫与理想色彩。",
+          "advice": "享受心动，同时观察行动是否持续。"
+        },
+        "reversed": {
+          "core": "承诺漂亮却难落实，情绪化推进或理想化他人。",
+          "love": "关系层面：承诺漂亮却难落实，情绪化推进或理想化他人。",
+          "career": "事业与现实层面：承诺漂亮却难落实，情绪化推进或理想化他人。",
+          "self": "自我探索中：承诺漂亮却难落实，情绪化推进或理想化他人。",
+          "trend": "若当前条件延续，承诺漂亮却难落实，情绪化推进或理想化他人。",
+          "advice": "用一致行动检验真诚，不被氛围替代判断。"
+        }
+      }
+    },
+    {
+      "id": "cups_13",
+      "slug": "queen_of_cups",
+      "name_en": "Queen of Cups",
+      "name_zh": "圣杯王后",
+      "arcana": "minor",
+      "number": 13,
+      "suit": "cups",
+      "rank": "queen",
+      "element": "water",
+      "image": "/cards_corrected/cups/13_queen_of_cups.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "共情",
+          "直觉成熟",
+          "情绪稳定",
+          "关怀",
+          "包容"
+        ],
+        "upright": {
+          "core": "成熟的情绪理解和稳定关怀能帮助局面柔和下来。",
+          "love": "关系层面：成熟的情绪理解和稳定关怀能帮助局面柔和下来。",
+          "career": "事业与现实层面：成熟的情绪理解和稳定关怀能帮助局面柔和下来。",
+          "self": "自我探索中：成熟的情绪理解和稳定关怀能帮助局面柔和下来。",
+          "trend": "若当前条件延续，成熟的情绪理解和稳定关怀能帮助局面柔和下来。",
+          "advice": "保持同理心，也保留清楚边界。"
+        },
+        "reversed": {
+          "core": "情绪压抑、依赖、过度牺牲或用温柔进行隐性控制。",
+          "love": "关系层面：情绪压抑、依赖、过度牺牲或用温柔进行隐性控制。",
+          "career": "事业与现实层面：情绪压抑、依赖、过度牺牲或用温柔进行隐性控制。",
+          "self": "自我探索中：情绪压抑、依赖、过度牺牲或用温柔进行隐性控制。",
+          "trend": "若当前条件延续，情绪压抑、依赖、过度牺牲或用温柔进行隐性控制。",
+          "advice": "停止替别人承担情绪，先说出自己的需要。"
+        }
+      }
+    },
+    {
+      "id": "cups_14",
+      "slug": "king_of_cups",
+      "name_en": "King of Cups",
+      "name_zh": "圣杯国王",
+      "arcana": "minor",
+      "number": 14,
+      "suit": "cups",
+      "rank": "king",
+      "element": "water",
+      "image": "/cards_corrected/cups/14_king_of_cups.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "情绪掌控",
+          "慈悲",
+          "沉着",
+          "理解",
+          "外交"
+        ],
+        "upright": {
+          "core": "稳定而不冷漠的情绪力量正在成为可靠支点。",
+          "love": "关系层面：稳定而不冷漠的情绪力量正在成为可靠支点。",
+          "career": "事业与现实层面：稳定而不冷漠的情绪力量正在成为可靠支点。",
+          "self": "自我探索中：稳定而不冷漠的情绪力量正在成为可靠支点。",
+          "trend": "若当前条件延续，稳定而不冷漠的情绪力量正在成为可靠支点。",
+          "advice": "在感受与判断之间保持平衡。"
+        },
+        "reversed": {
+          "core": "情绪操控、逃避脆弱或外表平静内里失衡。",
+          "love": "关系层面：情绪操控、逃避脆弱或外表平静内里失衡。",
+          "career": "事业与现实层面：情绪操控、逃避脆弱或外表平静内里失衡。",
+          "self": "自我探索中：情绪操控、逃避脆弱或外表平静内里失衡。",
+          "trend": "若当前条件延续，情绪操控、逃避脆弱或外表平静内里失衡。",
+          "advice": "诚实面对情绪来源，不用成熟形象掩盖问题。"
+        }
+      }
+    },
+    {
+      "id": "wands_01",
+      "slug": "ace_of_wands",
+      "name_en": "Ace of Wands",
+      "name_zh": "权杖一",
+      "arcana": "minor",
+      "number": 1,
+      "suit": "wands",
+      "rank": "ace",
+      "element": "fire",
+      "image": "/cards_corrected/wands/01_ace_of_wands.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "灵感",
+          "启动",
+          "热情",
+          "创造力",
+          "潜能"
+        ],
+        "upright": {
+          "core": "一股强烈的创造冲动或行动机会正在出现。",
+          "love": "关系层面：一股强烈的创造冲动或行动机会正在出现。",
+          "career": "事业与现实层面：一股强烈的创造冲动或行动机会正在出现。",
+          "self": "自我探索中：一股强烈的创造冲动或行动机会正在出现。",
+          "trend": "若当前条件延续，一股强烈的创造冲动或行动机会正在出现。",
+          "advice": "趁能量鲜活时启动最小可行行动。"
+        },
+        "reversed": {
+          "core": "动力不足、方向模糊或热情被现实阻塞。",
+          "love": "关系层面：动力不足、方向模糊或热情被现实阻塞。",
+          "career": "事业与现实层面：动力不足、方向模糊或热情被现实阻塞。",
+          "self": "自我探索中：动力不足、方向模糊或热情被现实阻塞。",
+          "trend": "若当前条件延续，动力不足、方向模糊或热情被现实阻塞。",
+          "advice": "先找到真正让你有感觉的目标，再重新点火。"
+        }
+      }
+    },
+    {
+      "id": "wands_02",
+      "slug": "two_of_wands",
+      "name_en": "Two of Wands",
+      "name_zh": "权杖二",
+      "arcana": "minor",
+      "number": 2,
+      "suit": "wands",
+      "rank": "two",
+      "element": "fire",
+      "image": "/cards_corrected/wands/02_two_of_wands.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "规划",
+          "远见",
+          "选择方向",
+          "掌控",
+          "扩张"
+        ],
+        "upright": {
+          "core": "你已看到更大的可能，接下来需要选择并规划路径。",
+          "love": "关系层面：你已看到更大的可能，接下来需要选择并规划路径。",
+          "career": "事业与现实层面：你已看到更大的可能，接下来需要选择并规划路径。",
+          "self": "自我探索中：你已看到更大的可能，接下来需要选择并规划路径。",
+          "trend": "若当前条件延续，你已看到更大的可能，接下来需要选择并规划路径。",
+          "advice": "把远景拆成下一阶段的具体决定。"
+        },
+        "reversed": {
+          "core": "害怕未知、计划不足或只在安全区想象未来。",
+          "love": "关系层面：害怕未知、计划不足或只在安全区想象未来。",
+          "career": "事业与现实层面：害怕未知、计划不足或只在安全区想象未来。",
+          "self": "自我探索中：害怕未知、计划不足或只在安全区想象未来。",
+          "trend": "若当前条件延续，害怕未知、计划不足或只在安全区想象未来。",
+          "advice": "补齐信息，为试探性行动设定可承受风险。"
+        }
+      }
+    },
+    {
+      "id": "wands_03",
+      "slug": "three_of_wands",
+      "name_en": "Three of Wands",
+      "name_zh": "权杖三",
+      "arcana": "minor",
+      "number": 3,
+      "suit": "wands",
+      "rank": "three",
+      "element": "fire",
+      "image": "/cards_corrected/wands/03_three_of_wands.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "拓展",
+          "等待成果",
+          "远方",
+          "合作",
+          "进展"
+        ],
+        "upright": {
+          "core": "前期投入开始向外延伸，成果正在路上。",
+          "love": "关系层面：前期投入开始向外延伸，成果正在路上。",
+          "career": "事业与现实层面：前期投入开始向外延伸，成果正在路上。",
+          "self": "自我探索中：前期投入开始向外延伸，成果正在路上。",
+          "trend": "若当前条件延续，前期投入开始向外延伸，成果正在路上。",
+          "advice": "保持视野并准备承接增长。"
+        },
+        "reversed": {
+          "core": "进展延迟、合作不顺或扩张超出能力。",
+          "love": "关系层面：进展延迟、合作不顺或扩张超出能力。",
+          "career": "事业与现实层面：进展延迟、合作不顺或扩张超出能力。",
+          "self": "自我探索中：进展延迟、合作不顺或扩张超出能力。",
+          "trend": "若当前条件延续，进展延迟、合作不顺或扩张超出能力。",
+          "advice": "检查物流、沟通和资源，不要只等结果回来。"
+        }
+      }
+    },
+    {
+      "id": "wands_04",
+      "slug": "four_of_wands",
+      "name_en": "Four of Wands",
+      "name_zh": "权杖四",
+      "arcana": "minor",
+      "number": 4,
+      "suit": "wands",
+      "rank": "four",
+      "element": "fire",
+      "image": "/cards_corrected/wands/04_four_of_wands.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "庆祝",
+          "稳定基础",
+          "归属",
+          "里程碑",
+          "团聚"
+        ],
+        "upright": {
+          "core": "一个值得庆祝的阶段性成果带来稳定与归属。",
+          "love": "关系层面：一个值得庆祝的阶段性成果带来稳定与归属。",
+          "career": "事业与现实层面：一个值得庆祝的阶段性成果带来稳定与归属。",
+          "self": "自我探索中：一个值得庆祝的阶段性成果带来稳定与归属。",
+          "trend": "若当前条件延续，一个值得庆祝的阶段性成果带来稳定与归属。",
+          "advice": "停下来确认成果，并感谢共同建设的人。"
+        },
+        "reversed": {
+          "core": "基础不稳、庆祝延迟或群体内部存在紧张。",
+          "love": "关系层面：基础不稳、庆祝延迟或群体内部存在紧张。",
+          "career": "事业与现实层面：基础不稳、庆祝延迟或群体内部存在紧张。",
+          "self": "自我探索中：基础不稳、庆祝延迟或群体内部存在紧张。",
+          "trend": "若当前条件延续，基础不稳、庆祝延迟或群体内部存在紧张。",
+          "advice": "先修复共同空间和基本约定。"
+        }
+      }
+    },
+    {
+      "id": "wands_05",
+      "slug": "five_of_wands",
+      "name_en": "Five of Wands",
+      "name_zh": "权杖五",
+      "arcana": "minor",
+      "number": 5,
+      "suit": "wands",
+      "rank": "five",
+      "element": "fire",
+      "image": "/cards_corrected/wands/05_five_of_wands.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "竞争",
+          "摩擦",
+          "观点碰撞",
+          "练习",
+          "混乱"
+        ],
+        "upright": {
+          "core": "多种力量正在碰撞，冲突也可能成为磨合与成长。",
+          "love": "关系层面：多种力量正在碰撞，冲突也可能成为磨合与成长。",
+          "career": "事业与现实层面：多种力量正在碰撞，冲突也可能成为磨合与成长。",
+          "self": "自我探索中：多种力量正在碰撞，冲突也可能成为磨合与成长。",
+          "trend": "若当前条件延续，多种力量正在碰撞，冲突也可能成为磨合与成长。",
+          "advice": "明确规则，让竞争服务于改进而非消耗。"
+        },
+        "reversed": {
+          "core": "冲突被压下、内耗升级或你正试图避免必要讨论。",
+          "love": "关系层面：冲突被压下、内耗升级或你正试图避免必要讨论。",
+          "career": "事业与现实层面：冲突被压下、内耗升级或你正试图避免必要讨论。",
+          "self": "自我探索中：冲突被压下、内耗升级或你正试图避免必要讨论。",
+          "trend": "若当前条件延续，冲突被压下、内耗升级或你正试图避免必要讨论。",
+          "advice": "区分有价值的分歧与无意义争斗。"
+        }
+      }
+    },
+    {
+      "id": "wands_06",
+      "slug": "six_of_wands",
+      "name_en": "Six of Wands",
+      "name_zh": "权杖六",
+      "arcana": "minor",
+      "number": 6,
+      "suit": "wands",
+      "rank": "six",
+      "element": "fire",
+      "image": "/cards_corrected/wands/06_six_of_wands.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "胜利",
+          "认可",
+          "进展",
+          "信心",
+          "领导"
+        ],
+        "upright": {
+          "core": "努力获得看见，认可和阶段性胜利正在靠近。",
+          "love": "关系层面：努力获得看见，认可和阶段性胜利正在靠近。",
+          "career": "事业与现实层面：努力获得看见，认可和阶段性胜利正在靠近。",
+          "self": "自我探索中：努力获得看见，认可和阶段性胜利正在靠近。",
+          "trend": "若当前条件延续，努力获得看见，认可和阶段性胜利正在靠近。",
+          "advice": "接受肯定，同时保持对团队与后续工作的尊重。"
+        },
+        "reversed": {
+          "core": "认可延迟、虚荣膨胀或外界评价左右自信。",
+          "love": "关系层面：认可延迟、虚荣膨胀或外界评价左右自信。",
+          "career": "事业与现实层面：认可延迟、虚荣膨胀或外界评价左右自信。",
+          "self": "自我探索中：认可延迟、虚荣膨胀或外界评价左右自信。",
+          "trend": "若当前条件延续，认可延迟、虚荣膨胀或外界评价左右自信。",
+          "advice": "把标准收回到真实能力与长期成果。"
+        }
+      }
+    },
+    {
+      "id": "wands_07",
+      "slug": "seven_of_wands",
+      "name_en": "Seven of Wands",
+      "name_zh": "权杖七",
+      "arcana": "minor",
+      "number": 7,
+      "suit": "wands",
+      "rank": "seven",
+      "element": "fire",
+      "image": "/cards_corrected/wands/07_seven_of_wands.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "立场",
+          "防守",
+          "勇气",
+          "竞争优势",
+          "坚持"
+        ],
+        "upright": {
+          "core": "你需要守住已经取得的位置和真正重要的边界。",
+          "love": "关系层面：你需要守住已经取得的位置和真正重要的边界。",
+          "career": "事业与现实层面：你需要守住已经取得的位置和真正重要的边界。",
+          "self": "自我探索中：你需要守住已经取得的位置和真正重要的边界。",
+          "trend": "若当前条件延续，你需要守住已经取得的位置和真正重要的边界。",
+          "advice": "坚定表达立场，但不要把所有人都当成敌人。"
+        },
+        "reversed": {
+          "core": "疲于防守、自信下降或被压力逼得过度反应。",
+          "love": "关系层面：疲于防守、自信下降或被压力逼得过度反应。",
+          "career": "事业与现实层面：疲于防守、自信下降或被压力逼得过度反应。",
+          "self": "自我探索中：疲于防守、自信下降或被压力逼得过度反应。",
+          "trend": "若当前条件延续，疲于防守、自信下降或被压力逼得过度反应。",
+          "advice": "缩小战线，只保护最重要的部分。"
+        }
+      }
+    },
+    {
+      "id": "wands_08",
+      "slug": "eight_of_wands",
+      "name_en": "Eight of Wands",
+      "name_zh": "权杖八",
+      "arcana": "minor",
+      "number": 8,
+      "suit": "wands",
+      "rank": "eight",
+      "element": "fire",
+      "image": "/cards_corrected/wands/08_eight_of_wands.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "速度",
+          "消息",
+          "推进",
+          "旅行",
+          "对齐"
+        ],
+        "upright": {
+          "core": "阻力减少，信息和行动会快速推进。",
+          "love": "关系层面：阻力减少，信息和行动会快速推进。",
+          "career": "事业与现实层面：阻力减少，信息和行动会快速推进。",
+          "self": "自我探索中：阻力减少，信息和行动会快速推进。",
+          "trend": "若当前条件延续，阻力减少，信息和行动会快速推进。",
+          "advice": "及时回应并保持方向一致。"
+        },
+        "reversed": {
+          "core": "延误、误传、仓促行动或节奏失控。",
+          "love": "关系层面：延误、误传、仓促行动或节奏失控。",
+          "career": "事业与现实层面：延误、误传、仓促行动或节奏失控。",
+          "self": "自我探索中：延误、误传、仓促行动或节奏失控。",
+          "trend": "若当前条件延续，延误、误传、仓促行动或节奏失控。",
+          "advice": "先校准信息和优先级，再恢复速度。"
+        }
+      }
+    },
+    {
+      "id": "wands_09",
+      "slug": "nine_of_wands",
+      "name_en": "Nine of Wands",
+      "name_zh": "权杖九",
+      "arcana": "minor",
+      "number": 9,
+      "suit": "wands",
+      "rank": "nine",
+      "element": "fire",
+      "image": "/cards_corrected/wands/09_nine_of_wands.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "韧性",
+          "警觉",
+          "边界",
+          "最后坚持",
+          "经验"
+        ],
+        "upright": {
+          "core": "你虽疲惫但仍有力量完成最后一段路。",
+          "love": "关系层面：你虽疲惫但仍有力量完成最后一段路。",
+          "career": "事业与现实层面：你虽疲惫但仍有力量完成最后一段路。",
+          "self": "自我探索中：你虽疲惫但仍有力量完成最后一段路。",
+          "trend": "若当前条件延续，你虽疲惫但仍有力量完成最后一段路。",
+          "advice": "保护精力，用经验而非恐惧设置边界。"
+        },
+        "reversed": {
+          "core": "过度戒备、耗尽或重复承担无法持续的压力。",
+          "love": "关系层面：过度戒备、耗尽或重复承担无法持续的压力。",
+          "career": "事业与现实层面：过度戒备、耗尽或重复承担无法持续的压力。",
+          "self": "自我探索中：过度戒备、耗尽或重复承担无法持续的压力。",
+          "trend": "若当前条件延续，过度戒备、耗尽或重复承担无法持续的压力。",
+          "advice": "允许休息和支援，不必独自证明坚强。"
+        }
+      }
+    },
+    {
+      "id": "wands_10",
+      "slug": "ten_of_wands",
+      "name_en": "Ten of Wands",
+      "name_zh": "权杖十",
+      "arcana": "minor",
+      "number": 10,
+      "suit": "wands",
+      "rank": "ten",
+      "element": "fire",
+      "image": "/cards_corrected/wands/10_ten_of_wands.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "负担",
+          "责任",
+          "压力",
+          "坚持",
+          "过度承担"
+        ],
+        "upright": {
+          "core": "责任已经接近承载上限，完成目标需要重新分配重量。",
+          "love": "关系层面：责任已经接近承载上限，完成目标需要重新分配重量。",
+          "career": "事业与现实层面：责任已经接近承载上限，完成目标需要重新分配重量。",
+          "self": "自我探索中：责任已经接近承载上限，完成目标需要重新分配重量。",
+          "trend": "若当前条件延续，责任已经接近承载上限，完成目标需要重新分配重量。",
+          "advice": "删减、授权并分清哪些责任真正属于你。"
+        },
+        "reversed": {
+          "core": "你可能开始放下负担，也可能因逃避责任让问题回流。",
+          "love": "关系层面：你可能开始放下负担，也可能因逃避责任让问题回流。",
+          "career": "事业与现实层面：你可能开始放下负担，也可能因逃避责任让问题回流。",
+          "self": "自我探索中：你可能开始放下负担，也可能因逃避责任让问题回流。",
+          "trend": "若当前条件延续，你可能开始放下负担，也可能因逃避责任让问题回流。",
+          "advice": "有选择地卸载，而不是把一切突然丢下。"
+        }
+      }
+    },
+    {
+      "id": "wands_11",
+      "slug": "page_of_wands",
+      "name_en": "Page of Wands",
+      "name_zh": "权杖侍从",
+      "arcana": "minor",
+      "number": 11,
+      "suit": "wands",
+      "rank": "page",
+      "element": "fire",
+      "image": "/cards_corrected/wands/11_page_of_wands.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "探索",
+          "热情消息",
+          "学习",
+          "自由精神",
+          "尝试"
+        ],
+        "upright": {
+          "core": "新的兴趣和行动消息鼓励你大胆尝试。",
+          "love": "关系层面：新的兴趣和行动消息鼓励你大胆尝试。",
+          "career": "事业与现实层面：新的兴趣和行动消息鼓励你大胆尝试。",
+          "self": "自我探索中：新的兴趣和行动消息鼓励你大胆尝试。",
+          "trend": "若当前条件延续，新的兴趣和行动消息鼓励你大胆尝试。",
+          "advice": "把好奇心变成一次小实验。"
+        },
+        "reversed": {
+          "core": "三分钟热度、缺乏方向或消息不成熟。",
+          "love": "关系层面：三分钟热度、缺乏方向或消息不成熟。",
+          "career": "事业与现实层面：三分钟热度、缺乏方向或消息不成熟。",
+          "self": "自我探索中：三分钟热度、缺乏方向或消息不成熟。",
+          "trend": "若当前条件延续，三分钟热度、缺乏方向或消息不成熟。",
+          "advice": "减少同时启动的目标，坚持完成一个。"
+        }
+      }
+    },
+    {
+      "id": "wands_12",
+      "slug": "knight_of_wands",
+      "name_en": "Knight of Wands",
+      "name_zh": "权杖骑士",
+      "arcana": "minor",
+      "number": 12,
+      "suit": "wands",
+      "rank": "knight",
+      "element": "fire",
+      "image": "/cards_corrected/wands/12_knight_of_wands.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "冲劲",
+          "冒险",
+          "魅力",
+          "行动",
+          "变化"
+        ],
+        "upright": {
+          "core": "强烈动力推动你迅速行动，局面充满变化与吸引力。",
+          "love": "关系层面：强烈动力推动你迅速行动，局面充满变化与吸引力。",
+          "career": "事业与现实层面：强烈动力推动你迅速行动，局面充满变化与吸引力。",
+          "self": "自我探索中：强烈动力推动你迅速行动，局面充满变化与吸引力。",
+          "trend": "若当前条件延续，强烈动力推动你迅速行动，局面充满变化与吸引力。",
+          "advice": "勇敢推进，但提前考虑落地和收尾。"
+        },
+        "reversed": {
+          "core": "冲动、反复、急躁或热情来得快去得快。",
+          "love": "关系层面：冲动、反复、急躁或热情来得快去得快。",
+          "career": "事业与现实层面：冲动、反复、急躁或热情来得快去得快。",
+          "self": "自我探索中：冲动、反复、急躁或热情来得快去得快。",
+          "trend": "若当前条件延续，冲动、反复、急躁或热情来得快去得快。",
+          "advice": "放慢一个节拍，让承诺跟得上行动。"
+        }
+      }
+    },
+    {
+      "id": "wands_13",
+      "slug": "queen_of_wands",
+      "name_en": "Queen of Wands",
+      "name_zh": "权杖王后",
+      "arcana": "minor",
+      "number": 13,
+      "suit": "wands",
+      "rank": "queen",
+      "element": "fire",
+      "image": "/cards_corrected/wands/13_queen_of_wands.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "自信",
+          "独立",
+          "热情",
+          "感染力",
+          "决断"
+        ],
+        "upright": {
+          "core": "你有能力以自信和创造力影响局面。",
+          "love": "关系层面：你有能力以自信和创造力影响局面。",
+          "career": "事业与现实层面：你有能力以自信和创造力影响局面。",
+          "self": "自我探索中：你有能力以自信和创造力影响局面。",
+          "trend": "若当前条件延续，你有能力以自信和创造力影响局面。",
+          "advice": "大胆占据自己的位置，也鼓励他人成长。"
+        },
+        "reversed": {
+          "core": "嫉妒、自我中心、信心受挫或以强势掩盖不安。",
+          "love": "关系层面：嫉妒、自我中心、信心受挫或以强势掩盖不安。",
+          "career": "事业与现实层面：嫉妒、自我中心、信心受挫或以强势掩盖不安。",
+          "self": "自我探索中：嫉妒、自我中心、信心受挫或以强势掩盖不安。",
+          "trend": "若当前条件延续，嫉妒、自我中心、信心受挫或以强势掩盖不安。",
+          "advice": "停止比较，重新连接自己的创造动力。"
+        }
+      }
+    },
+    {
+      "id": "wands_14",
+      "slug": "king_of_wands",
+      "name_en": "King of Wands",
+      "name_zh": "权杖国王",
+      "arcana": "minor",
+      "number": 14,
+      "suit": "wands",
+      "rank": "king",
+      "element": "fire",
+      "image": "/cards_corrected/wands/14_king_of_wands.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "愿景",
+          "领导",
+          "开拓",
+          "成熟行动",
+          "影响力"
+        ],
+        "upright": {
+          "core": "长远愿景与行动力结合，适合承担领导和开拓责任。",
+          "love": "关系层面：长远愿景与行动力结合，适合承担领导和开拓责任。",
+          "career": "事业与现实层面：长远愿景与行动力结合，适合承担领导和开拓责任。",
+          "self": "自我探索中：长远愿景与行动力结合，适合承担领导和开拓责任。",
+          "trend": "若当前条件延续，长远愿景与行动力结合，适合承担领导和开拓责任。",
+          "advice": "明确方向，并让团队理解为什么前进。"
+        },
+        "reversed": {
+          "core": "专断、急于控制或愿景宏大却忽略细节。",
+          "love": "关系层面：专断、急于控制或愿景宏大却忽略细节。",
+          "career": "事业与现实层面：专断、急于控制或愿景宏大却忽略细节。",
+          "self": "自我探索中：专断、急于控制或愿景宏大却忽略细节。",
+          "trend": "若当前条件延续，专断、急于控制或愿景宏大却忽略细节。",
+          "advice": "听取反馈，把影响力建立在可信行动上。"
+        }
+      }
+    },
+    {
+      "id": "swords_01",
+      "slug": "ace_of_swords",
+      "name_en": "Ace of Swords",
+      "name_zh": "宝剑一",
+      "arcana": "minor",
+      "number": 1,
+      "suit": "swords",
+      "rank": "ace",
+      "element": "air",
+      "image": "/cards_corrected/swords/01_ace_of_swords.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "真相",
+          "突破",
+          "清晰",
+          "决定",
+          "新观点"
+        ],
+        "upright": {
+          "core": "新的理解切开混乱，清楚表达与理性决定成为关键。",
+          "love": "关系层面：新的理解切开混乱，清楚表达与理性决定成为关键。",
+          "career": "事业与现实层面：新的理解切开混乱，清楚表达与理性决定成为关键。",
+          "self": "自我探索中：新的理解切开混乱，清楚表达与理性决定成为关键。",
+          "trend": "若当前条件延续，新的理解切开混乱，清楚表达与理性决定成为关键。",
+          "advice": "说出核心事实，并把结论转化为行动。"
+        },
+        "reversed": {
+          "core": "思路混乱、误判、语言伤人或重要事实仍不完整。",
+          "love": "关系层面：思路混乱、误判、语言伤人或重要事实仍不完整。",
+          "career": "事业与现实层面：思路混乱、误判、语言伤人或重要事实仍不完整。",
+          "self": "自我探索中：思路混乱、误判、语言伤人或重要事实仍不完整。",
+          "trend": "若当前条件延续，思路混乱、误判、语言伤人或重要事实仍不完整。",
+          "advice": "暂停争辩，先核实信息和真实意图。"
+        }
+      }
+    },
+    {
+      "id": "swords_02",
+      "slug": "two_of_swords",
+      "name_en": "Two of Swords",
+      "name_zh": "宝剑二",
+      "arcana": "minor",
+      "number": 2,
+      "suit": "swords",
+      "rank": "two",
+      "element": "air",
+      "image": "/cards_corrected/swords/02_two_of_swords.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "僵局",
+          "回避决定",
+          "权衡",
+          "防御",
+          "未知"
+        ],
+        "upright": {
+          "core": "你处在难以取舍的僵局，暂时平衡掩盖了必须面对的选择。",
+          "love": "关系层面：你处在难以取舍的僵局，暂时平衡掩盖了必须面对的选择。",
+          "career": "事业与现实层面：你处在难以取舍的僵局，暂时平衡掩盖了必须面对的选择。",
+          "self": "自我探索中：你处在难以取舍的僵局，暂时平衡掩盖了必须面对的选择。",
+          "trend": "若当前条件延续，你处在难以取舍的僵局，暂时平衡掩盖了必须面对的选择。",
+          "advice": "补齐信息并设定决定期限。"
+        },
+        "reversed": {
+          "core": "僵局开始松动，或信息过载让焦虑加剧。",
+          "love": "关系层面：僵局开始松动，或信息过载让焦虑加剧。",
+          "career": "事业与现实层面：僵局开始松动，或信息过载让焦虑加剧。",
+          "self": "自我探索中：僵局开始松动，或信息过载让焦虑加剧。",
+          "trend": "若当前条件延续，僵局开始松动，或信息过载让焦虑加剧。",
+          "advice": "承认你已经知道的部分，不再无限拖延。"
+        }
+      }
+    },
+    {
+      "id": "swords_03",
+      "slug": "three_of_swords",
+      "name_en": "Three of Swords",
+      "name_zh": "宝剑三",
+      "arcana": "minor",
+      "number": 3,
+      "suit": "swords",
+      "rank": "three",
+      "element": "air",
+      "image": "/cards_corrected/swords/03_three_of_swords.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "pilot_complete",
+      "interpretation": {
+        "keywords": [
+          "心痛",
+          "真相",
+          "失落",
+          "分离",
+          "疗愈"
+        ],
+        "upright": {
+          "core": "某个事实带来了真实的疼痛。承认受伤不是软弱，而是停止让伤口在否认中扩大。",
+          "love": "可能涉及失望、冲突、分离或刺痛人的沟通。需要先承认伤害，再谈是否修复。",
+          "career": "反馈、失败或人际冲突令人难受，但它也让问题变得清楚。",
+          "self": "不要催促自己马上振作；情绪被看见之后，疗愈才会开始。",
+          "trend": "短期情绪压力偏高，旧问题可能被触发或说破。",
+          "advice": "允许悲伤，同时避免用反复回想继续伤害自己。"
+        },
+        "reversed": {
+          "core": "伤痛正在缓慢释放，但未处理的情绪也可能重新浮现。",
+          "love": "关系有修复机会，前提是双方不再淡化伤害，也不把道歉当作立刻翻篇。",
+          "career": "你正在从挫败中恢复，适合整理经验而非持续自责。",
+          "self": "真正的放下不是假装没事，而是让痛苦不再控制今天的选择。",
+          "trend": "最尖锐的阶段可能正在过去，恢复需要时间和明确边界。",
+          "advice": "处理仍会刺痛你的核心事实，必要时向可信任的人寻求支持。"
+        }
+      }
+    },
+    {
+      "id": "swords_04",
+      "slug": "four_of_swords",
+      "name_en": "Four of Swords",
+      "name_zh": "宝剑四",
+      "arcana": "minor",
+      "number": 4,
+      "suit": "swords",
+      "rank": "four",
+      "element": "air",
+      "image": "/cards_corrected/swords/04_four_of_swords.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "休息",
+          "恢复",
+          "暂停",
+          "整合",
+          "沉静"
+        ],
+        "upright": {
+          "core": "身心需要暂停和恢复，继续硬撑不会提高效率。",
+          "love": "关系层面：身心需要暂停和恢复，继续硬撑不会提高效率。",
+          "career": "事业与现实层面：身心需要暂停和恢复，继续硬撑不会提高效率。",
+          "self": "自我探索中：身心需要暂停和恢复，继续硬撑不会提高效率。",
+          "trend": "若当前条件延续，身心需要暂停和恢复，继续硬撑不会提高效率。",
+          "advice": "主动安排安静与休息，让思绪重新排列。"
+        },
+        "reversed": {
+          "core": "长期停滞、休息不足或被迫重新投入。",
+          "love": "关系层面：长期停滞、休息不足或被迫重新投入。",
+          "career": "事业与现实层面：长期停滞、休息不足或被迫重新投入。",
+          "self": "自我探索中：长期停滞、休息不足或被迫重新投入。",
+          "trend": "若当前条件延续，长期停滞、休息不足或被迫重新投入。",
+          "advice": "调整恢复方式，必要时减少外部要求。"
+        }
+      }
+    },
+    {
+      "id": "swords_05",
+      "slug": "five_of_swords",
+      "name_en": "Five of Swords",
+      "name_zh": "宝剑五",
+      "arcana": "minor",
+      "number": 5,
+      "suit": "swords",
+      "rank": "five",
+      "element": "air",
+      "image": "/cards_corrected/swords/05_five_of_swords.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "冲突",
+          "胜负心",
+          "代价",
+          "不择手段",
+          "余波"
+        ],
+        "upright": {
+          "core": "即使赢得争论，也可能付出关系与信任的代价。",
+          "love": "关系层面：即使赢得争论，也可能付出关系与信任的代价。",
+          "career": "事业与现实层面：即使赢得争论，也可能付出关系与信任的代价。",
+          "self": "自我探索中：即使赢得争论，也可能付出关系与信任的代价。",
+          "trend": "若当前条件延续，即使赢得争论，也可能付出关系与信任的代价。",
+          "advice": "先决定你真正想解决问题还是只想获胜。"
+        },
+        "reversed": {
+          "core": "冲突后开始和解、承担，也可能怨气仍未消散。",
+          "love": "关系层面：冲突后开始和解、承担，也可能怨气仍未消散。",
+          "career": "事业与现实层面：冲突后开始和解、承担，也可能怨气仍未消散。",
+          "self": "自我探索中：冲突后开始和解、承担，也可能怨气仍未消散。",
+          "trend": "若当前条件延续，冲突后开始和解、承担，也可能怨气仍未消散。",
+          "advice": "停止继续补刀，明确责任与修复条件。"
+        }
+      }
+    },
+    {
+      "id": "swords_06",
+      "slug": "six_of_swords",
+      "name_en": "Six of Swords",
+      "name_zh": "宝剑六",
+      "arcana": "minor",
+      "number": 6,
+      "suit": "swords",
+      "rank": "six",
+      "element": "air",
+      "image": "/cards_corrected/swords/06_six_of_swords.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "过渡",
+          "离开困境",
+          "移动",
+          "疗愈旅程",
+          "渐进改善"
+        ],
+        "upright": {
+          "core": "你正在离开动荡，但恢复是渐进过程，旧情绪仍会随行一段。",
+          "love": "关系层面：你正在离开动荡，但恢复是渐进过程，旧情绪仍会随行一段。",
+          "career": "事业与现实层面：你正在离开动荡，但恢复是渐进过程，旧情绪仍会随行一段。",
+          "self": "自我探索中：你正在离开动荡，但恢复是渐进过程，旧情绪仍会随行一段。",
+          "trend": "若当前条件延续，你正在离开动荡，但恢复是渐进过程，旧情绪仍会随行一段。",
+          "advice": "接受缓慢改善，持续向更安全的方向移动。"
+        },
+        "reversed": {
+          "core": "过渡受阻、旧问题反复或你不愿真正离开熟悉困境。",
+          "love": "关系层面：过渡受阻、旧问题反复或你不愿真正离开熟悉困境。",
+          "career": "事业与现实层面：过渡受阻、旧问题反复或你不愿真正离开熟悉困境。",
+          "self": "自我探索中：过渡受阻、旧问题反复或你不愿真正离开熟悉困境。",
+          "trend": "若当前条件延续，过渡受阻、旧问题反复或你不愿真正离开熟悉困境。",
+          "advice": "找出让你回头的具体牵绊并逐一处理。"
+        }
+      }
+    },
+    {
+      "id": "swords_07",
+      "slug": "seven_of_swords",
+      "name_en": "Seven of Swords",
+      "name_zh": "宝剑七",
+      "arcana": "minor",
+      "number": 7,
+      "suit": "swords",
+      "rank": "seven",
+      "element": "air",
+      "image": "/cards_corrected/swords/07_seven_of_swords.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "策略",
+          "隐瞒",
+          "独立行动",
+          "规避",
+          "机敏"
+        ],
+        "upright": {
+          "core": "需要策略和谨慎，但也要警惕隐瞒造成信任代价。",
+          "love": "关系层面：需要策略和谨慎，但也要警惕隐瞒造成信任代价。",
+          "career": "事业与现实层面：需要策略和谨慎，但也要警惕隐瞒造成信任代价。",
+          "self": "自我探索中：需要策略和谨慎，但也要警惕隐瞒造成信任代价。",
+          "trend": "若当前条件延续，需要策略和谨慎，但也要警惕隐瞒造成信任代价。",
+          "advice": "选择聪明且经得起公开检验的做法。"
+        },
+        "reversed": {
+          "core": "秘密暴露、良心压力或计划漏洞逐渐显现。",
+          "love": "关系层面：秘密暴露、良心压力或计划漏洞逐渐显现。",
+          "career": "事业与现实层面：秘密暴露、良心压力或计划漏洞逐渐显现。",
+          "self": "自我探索中：秘密暴露、良心压力或计划漏洞逐渐显现。",
+          "trend": "若当前条件延续，秘密暴露、良心压力或计划漏洞逐渐显现。",
+          "advice": "及时坦白和修正，不要用更多谎言补洞。"
+        }
+      }
+    },
+    {
+      "id": "swords_08",
+      "slug": "eight_of_swords",
+      "name_en": "Eight of Swords",
+      "name_zh": "宝剑八",
+      "arcana": "minor",
+      "number": 8,
+      "suit": "swords",
+      "rank": "eight",
+      "element": "air",
+      "image": "/cards_corrected/swords/08_eight_of_swords.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "受限",
+          "自我束缚",
+          "恐惧",
+          "无力感",
+          "认知牢笼"
+        ],
+        "upright": {
+          "core": "限制感很强，但其中一部分来自恐惧和既定想法，而非真正无路可走。",
+          "love": "关系层面：限制感很强，但其中一部分来自恐惧和既定想法，而非真正无路可走。",
+          "career": "事业与现实层面：限制感很强，但其中一部分来自恐惧和既定想法，而非真正无路可走。",
+          "self": "自我探索中：限制感很强，但其中一部分来自恐惧和既定想法，而非真正无路可走。",
+          "trend": "若当前条件延续，限制感很强，但其中一部分来自恐惧和既定想法，而非真正无路可走。",
+          "advice": "寻找一个仍能自主决定的小动作。"
+        },
+        "reversed": {
+          "core": "你开始看见出口，也可能因害怕负责而抗拒自由。",
+          "love": "关系层面：你开始看见出口，也可能因害怕负责而抗拒自由。",
+          "career": "事业与现实层面：你开始看见出口，也可能因害怕负责而抗拒自由。",
+          "self": "自我探索中：你开始看见出口，也可能因害怕负责而抗拒自由。",
+          "trend": "若当前条件延续，你开始看见出口，也可能因害怕负责而抗拒自由。",
+          "advice": "移除一个现实限制，并停止重复无能为力的叙事。"
+        }
+      }
+    },
+    {
+      "id": "swords_09",
+      "slug": "nine_of_swords",
+      "name_en": "Nine of Swords",
+      "name_zh": "宝剑九",
+      "arcana": "minor",
+      "number": 9,
+      "suit": "swords",
+      "rank": "nine",
+      "element": "air",
+      "image": "/cards_corrected/swords/09_nine_of_swords.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "焦虑",
+          "失眠",
+          "担忧",
+          "内疚",
+          "心理压力"
+        ],
+        "upright": {
+          "core": "思绪正在放大最坏可能，痛苦真实，但并非所有担忧都会成为事实。",
+          "love": "关系层面：思绪正在放大最坏可能，痛苦真实，但并非所有担忧都会成为事实。",
+          "career": "事业与现实层面：思绪正在放大最坏可能，痛苦真实，但并非所有担忧都会成为事实。",
+          "self": "自我探索中：思绪正在放大最坏可能，痛苦真实，但并非所有担忧都会成为事实。",
+          "trend": "若当前条件延续，思绪正在放大最坏可能，痛苦真实，但并非所有担忧都会成为事实。",
+          "advice": "把担忧写成可验证问题，并寻求实际支持。"
+        },
+        "reversed": {
+          "core": "焦虑开始缓解，或长期压抑已接近承受上限。",
+          "love": "关系层面：焦虑开始缓解，或长期压抑已接近承受上限。",
+          "career": "事业与现实层面：焦虑开始缓解，或长期压抑已接近承受上限。",
+          "self": "自我探索中：焦虑开始缓解，或长期压抑已接近承受上限。",
+          "trend": "若当前条件延续，焦虑开始缓解，或长期压抑已接近承受上限。",
+          "advice": "不要独自困在脑内循环，优先恢复睡眠与支持系统。"
+        }
+      }
+    },
+    {
+      "id": "swords_10",
+      "slug": "ten_of_swords",
+      "name_en": "Ten of Swords",
+      "name_zh": "宝剑十",
+      "arcana": "minor",
+      "number": 10,
+      "suit": "swords",
+      "rank": "ten",
+      "element": "air",
+      "image": "/cards_corrected/swords/10_ten_of_swords.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "结束",
+          "触底",
+          "背叛感",
+          "无可继续",
+          "黎明前"
+        ],
+        "upright": {
+          "core": "某个痛苦阶段已经到达终点，继续维持旧形式没有意义。",
+          "love": "关系层面：某个痛苦阶段已经到达终点，继续维持旧形式没有意义。",
+          "career": "事业与现实层面：某个痛苦阶段已经到达终点，继续维持旧形式没有意义。",
+          "self": "自我探索中：某个痛苦阶段已经到达终点，继续维持旧形式没有意义。",
+          "trend": "若当前条件延续，某个痛苦阶段已经到达终点，继续维持旧形式没有意义。",
+          "advice": "承认结束，保护自己并开始最基本的恢复。"
+        },
+        "reversed": {
+          "core": "你正在从低谷复原，也可能拒绝结束而延长痛苦。",
+          "love": "关系层面：你正在从低谷复原，也可能拒绝结束而延长痛苦。",
+          "career": "事业与现实层面：你正在从低谷复原，也可能拒绝结束而延长痛苦。",
+          "self": "自我探索中：你正在从低谷复原，也可能拒绝结束而延长痛苦。",
+          "trend": "若当前条件延续，你正在从低谷复原，也可能拒绝结束而延长痛苦。",
+          "advice": "停止重复证明伤害，选择让故事真正翻页的行动。"
+        }
+      }
+    },
+    {
+      "id": "swords_11",
+      "slug": "page_of_swords",
+      "name_en": "Page of Swords",
+      "name_zh": "宝剑侍从",
+      "arcana": "minor",
+      "number": 11,
+      "suit": "swords",
+      "rank": "page",
+      "element": "air",
+      "image": "/cards_corrected/swords/11_page_of_swords.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "观察",
+          "求知",
+          "警觉",
+          "直接沟通",
+          "新想法"
+        ],
+        "upright": {
+          "core": "好奇与敏锐让你快速捕捉信息，但结论仍需验证。",
+          "love": "关系层面：好奇与敏锐让你快速捕捉信息，但结论仍需验证。",
+          "career": "事业与现实层面：好奇与敏锐让你快速捕捉信息，但结论仍需验证。",
+          "self": "自我探索中：好奇与敏锐让你快速捕捉信息，但结论仍需验证。",
+          "trend": "若当前条件延续，好奇与敏锐让你快速捕捉信息，但结论仍需验证。",
+          "advice": "多问一个问题，少做一次未经确认的判断。"
+        },
+        "reversed": {
+          "core": "流言、窥探、言语冲动或只有观点没有经验。",
+          "love": "关系层面：流言、窥探、言语冲动或只有观点没有经验。",
+          "career": "事业与现实层面：流言、窥探、言语冲动或只有观点没有经验。",
+          "self": "自我探索中：流言、窥探、言语冲动或只有观点没有经验。",
+          "trend": "若当前条件延续，流言、窥探、言语冲动或只有观点没有经验。",
+          "advice": "控制信息冲动，用事实替代猜测。"
+        }
+      }
+    },
+    {
+      "id": "swords_12",
+      "slug": "knight_of_swords",
+      "name_en": "Knight of Swords",
+      "name_zh": "宝剑骑士",
+      "arcana": "minor",
+      "number": 12,
+      "suit": "swords",
+      "rank": "knight",
+      "element": "air",
+      "image": "/cards_corrected/swords/12_knight_of_swords.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "果断",
+          "速度",
+          "雄心",
+          "直接行动",
+          "智力"
+        ],
+        "upright": {
+          "core": "目标明确后会快速推进，适合果断突破阻碍。",
+          "love": "关系层面：目标明确后会快速推进，适合果断突破阻碍。",
+          "career": "事业与现实层面：目标明确后会快速推进，适合果断突破阻碍。",
+          "self": "自我探索中：目标明确后会快速推进，适合果断突破阻碍。",
+          "trend": "若当前条件延续，目标明确后会快速推进，适合果断突破阻碍。",
+          "advice": "保持锋利，也给他人和细节留下反应时间。"
+        },
+        "reversed": {
+          "core": "鲁莽、攻击性沟通、方向错误或行动快于判断。",
+          "love": "关系层面：鲁莽、攻击性沟通、方向错误或行动快于判断。",
+          "career": "事业与现实层面：鲁莽、攻击性沟通、方向错误或行动快于判断。",
+          "self": "自我探索中：鲁莽、攻击性沟通、方向错误或行动快于判断。",
+          "trend": "若当前条件延续，鲁莽、攻击性沟通、方向错误或行动快于判断。",
+          "advice": "减速核对目标，避免把焦虑变成攻击。"
+        }
+      }
+    },
+    {
+      "id": "swords_13",
+      "slug": "queen_of_swords",
+      "name_en": "Queen of Swords",
+      "name_zh": "宝剑王后",
+      "arcana": "minor",
+      "number": 13,
+      "suit": "swords",
+      "rank": "queen",
+      "element": "air",
+      "image": "/cards_corrected/swords/13_queen_of_swords.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "独立判断",
+          "清晰边界",
+          "诚实",
+          "洞察",
+          "成熟理性"
+        ],
+        "upright": {
+          "core": "清晰、诚实和成熟边界能帮助你做出不讨好人的决定。",
+          "love": "关系层面：清晰、诚实和成熟边界能帮助你做出不讨好人的决定。",
+          "career": "事业与现实层面：清晰、诚实和成熟边界能帮助你做出不讨好人的决定。",
+          "self": "自我探索中：清晰、诚实和成熟边界能帮助你做出不讨好人的决定。",
+          "trend": "若当前条件延续，清晰、诚实和成熟边界能帮助你做出不讨好人的决定。",
+          "advice": "说真话，但不必用冷酷证明理性。"
+        },
+        "reversed": {
+          "core": "尖刻、封闭、过度批判或理性被伤痛绑架。",
+          "love": "关系层面：尖刻、封闭、过度批判或理性被伤痛绑架。",
+          "career": "事业与现实层面：尖刻、封闭、过度批判或理性被伤痛绑架。",
+          "self": "自我探索中：尖刻、封闭、过度批判或理性被伤痛绑架。",
+          "trend": "若当前条件延续，尖刻、封闭、过度批判或理性被伤痛绑架。",
+          "advice": "检查判断中是否夹带未处理的怨气。"
+        }
+      }
+    },
+    {
+      "id": "swords_14",
+      "slug": "king_of_swords",
+      "name_en": "King of Swords",
+      "name_zh": "宝剑国王",
+      "arcana": "minor",
+      "number": 14,
+      "suit": "swords",
+      "rank": "king",
+      "element": "air",
+      "image": "/cards_corrected/swords/14_king_of_swords.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "理性权威",
+          "战略",
+          "原则",
+          "判断",
+          "公正"
+        ],
+        "upright": {
+          "core": "结构化思考和清楚原则能让复杂局面得到处理。",
+          "love": "关系层面：结构化思考和清楚原则能让复杂局面得到处理。",
+          "career": "事业与现实层面：结构化思考和清楚原则能让复杂局面得到处理。",
+          "self": "自我探索中：结构化思考和清楚原则能让复杂局面得到处理。",
+          "trend": "若当前条件延续，结构化思考和清楚原则能让复杂局面得到处理。",
+          "advice": "依据事实制定规则，并保持沟通透明。"
+        },
+        "reversed": {
+          "core": "滥用权力、冷酷控制或只讲逻辑不顾现实影响。",
+          "love": "关系层面：滥用权力、冷酷控制或只讲逻辑不顾现实影响。",
+          "career": "事业与现实层面：滥用权力、冷酷控制或只讲逻辑不顾现实影响。",
+          "self": "自我探索中：滥用权力、冷酷控制或只讲逻辑不顾现实影响。",
+          "trend": "若当前条件延续，滥用权力、冷酷控制或只讲逻辑不顾现实影响。",
+          "advice": "接受质询，让判断经得起不同角度检验。"
+        }
+      }
+    },
+    {
+      "id": "pentacles_01",
+      "slug": "ace_of_pentacles",
+      "name_en": "Ace of Pentacles",
+      "name_zh": "星币一",
+      "arcana": "minor",
+      "number": 1,
+      "suit": "pentacles",
+      "rank": "ace",
+      "element": "earth",
+      "image": "/cards_corrected/pentacles/01_ace_of_pentacles.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "pilot_complete",
+      "interpretation": {
+        "keywords": [
+          "现实机会",
+          "资源",
+          "稳定起点",
+          "身体感",
+          "长期价值"
+        ],
+        "upright": {
+          "core": "一个可以落地的新机会正在形成。它未必耀眼，但有机会通过持续投入长成稳定成果。",
+          "love": "关系适合用实际行动建立安全感，例如稳定联系、兑现承诺和规划现实生活。",
+          "career": "可能出现工作、收入、学习或项目机会，重点是评估可执行性并尽快开始。",
+          "self": "回到身体、时间和资源管理，你需要的是可持续的基础。",
+          "trend": "现实条件倾向改善，新机会有成长空间，但需要耐心经营。",
+          "advice": "抓住最具体、最可验证的一步，把可能性变成行动。"
+        },
+        "reversed": {
+          "core": "机会可能延迟、准备不足，或你正把资源投入缺乏根基的方向。",
+          "love": "安全感不足或现实条件不匹配，口头承诺暂时难以落地。",
+          "career": "需注意预算、合同、执行细节和错失机会，不宜只看理想回报。",
+          "self": "焦虑可能来自基础失衡，例如作息、金钱或精力长期透支。",
+          "trend": "发展速度偏慢，若不调整资源配置，机会可能缩小。",
+          "advice": "先补基础漏洞，再追加投入；不要用愿望代替可行性。"
+        }
+      }
+    },
+    {
+      "id": "pentacles_02",
+      "slug": "two_of_pentacles",
+      "name_en": "Two of Pentacles",
+      "name_zh": "星币二",
+      "arcana": "minor",
+      "number": 2,
+      "suit": "pentacles",
+      "rank": "two",
+      "element": "earth",
+      "image": "/cards_corrected/pentacles/02_two_of_pentacles.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "平衡资源",
+          "多任务",
+          "适应",
+          "节奏",
+          "优先级"
+        ],
+        "upright": {
+          "core": "你在多项现实任务之间保持动态平衡，灵活性很重要。",
+          "love": "关系层面：你在多项现实任务之间保持动态平衡，灵活性很重要。",
+          "career": "事业与现实层面：你在多项现实任务之间保持动态平衡，灵活性很重要。",
+          "self": "自我探索中：你在多项现实任务之间保持动态平衡，灵活性很重要。",
+          "trend": "若当前条件延续，你在多项现实任务之间保持动态平衡，灵活性很重要。",
+          "advice": "确定优先级，并为变化预留余量。"
+        },
+        "reversed": {
+          "core": "任务过载、财务失衡或持续救火让节奏崩溃。",
+          "love": "关系层面：任务过载、财务失衡或持续救火让节奏崩溃。",
+          "career": "事业与现实层面：任务过载、财务失衡或持续救火让节奏崩溃。",
+          "self": "自我探索中：任务过载、财务失衡或持续救火让节奏崩溃。",
+          "trend": "若当前条件延续，任务过载、财务失衡或持续救火让节奏崩溃。",
+          "advice": "减少并行事项，先稳定最关键的两件事。"
+        }
+      }
+    },
+    {
+      "id": "pentacles_03",
+      "slug": "three_of_pentacles",
+      "name_en": "Three of Pentacles",
+      "name_zh": "星币三",
+      "arcana": "minor",
+      "number": 3,
+      "suit": "pentacles",
+      "rank": "three",
+      "element": "earth",
+      "image": "/cards_corrected/pentacles/03_three_of_pentacles.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "合作",
+          "技能",
+          "工艺",
+          "认可",
+          "建设"
+        ],
+        "upright": {
+          "core": "专业能力与有效协作正在形成可见成果。",
+          "love": "关系层面：专业能力与有效协作正在形成可见成果。",
+          "career": "事业与现实层面：专业能力与有效协作正在形成可见成果。",
+          "self": "自我探索中：专业能力与有效协作正在形成可见成果。",
+          "trend": "若当前条件延续，专业能力与有效协作正在形成可见成果。",
+          "advice": "明确分工，认真对待反馈和细节。"
+        },
+        "reversed": {
+          "core": "合作不良、质量不足或能力没有得到正确使用。",
+          "love": "关系层面：合作不良、质量不足或能力没有得到正确使用。",
+          "career": "事业与现实层面：合作不良、质量不足或能力没有得到正确使用。",
+          "self": "自我探索中：合作不良、质量不足或能力没有得到正确使用。",
+          "trend": "若当前条件延续，合作不良、质量不足或能力没有得到正确使用。",
+          "advice": "回到标准、角色和沟通机制。"
+        }
+      }
+    },
+    {
+      "id": "pentacles_04",
+      "slug": "four_of_pentacles",
+      "name_en": "Four of Pentacles",
+      "name_zh": "星币四",
+      "arcana": "minor",
+      "number": 4,
+      "suit": "pentacles",
+      "rank": "four",
+      "element": "earth",
+      "image": "/cards_corrected/pentacles/04_four_of_pentacles.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "守成",
+          "安全感",
+          "控制",
+          "占有",
+          "边界"
+        ],
+        "upright": {
+          "core": "保护资源能带来安全，但抓得过紧也会阻止流动。",
+          "love": "关系层面：保护资源能带来安全，但抓得过紧也会阻止流动。",
+          "career": "事业与现实层面：保护资源能带来安全，但抓得过紧也会阻止流动。",
+          "self": "自我探索中：保护资源能带来安全，但抓得过紧也会阻止流动。",
+          "trend": "若当前条件延续，保护资源能带来安全，但抓得过紧也会阻止流动。",
+          "advice": "建立稳健边界，同时保留合理分享和投资。"
+        },
+        "reversed": {
+          "core": "失去控制、过度囤积或开始松开对资源的执着。",
+          "love": "关系层面：失去控制、过度囤积或开始松开对资源的执着。",
+          "career": "事业与现实层面：失去控制、过度囤积或开始松开对资源的执着。",
+          "self": "自我探索中：失去控制、过度囤积或开始松开对资源的执着。",
+          "trend": "若当前条件延续，失去控制、过度囤积或开始松开对资源的执着。",
+          "advice": "区分必要储备与恐惧驱动的控制。"
+        }
+      }
+    },
+    {
+      "id": "pentacles_05",
+      "slug": "five_of_pentacles",
+      "name_en": "Five of Pentacles",
+      "name_zh": "星币五",
+      "arcana": "minor",
+      "number": 5,
+      "suit": "pentacles",
+      "rank": "five",
+      "element": "earth",
+      "image": "/cards_corrected/pentacles/05_five_of_pentacles.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "匮乏",
+          "困难",
+          "排斥",
+          "支持缺失",
+          "共同渡过"
+        ],
+        "upright": {
+          "core": "现实压力和孤立感较强，但帮助可能比你以为的更近。",
+          "love": "关系层面：现实压力和孤立感较强，但帮助可能比你以为的更近。",
+          "career": "事业与现实层面：现实压力和孤立感较强，但帮助可能比你以为的更近。",
+          "self": "自我探索中：现实压力和孤立感较强，但帮助可能比你以为的更近。",
+          "trend": "若当前条件延续，现实压力和孤立感较强，但帮助可能比你以为的更近。",
+          "advice": "尽早寻求具体援助，不要让羞耻阻止连接。"
+        },
+        "reversed": {
+          "core": "困境开始改善，或你仍因害怕被拒绝而不敢求助。",
+          "love": "关系层面：困境开始改善，或你仍因害怕被拒绝而不敢求助。",
+          "career": "事业与现实层面：困境开始改善，或你仍因害怕被拒绝而不敢求助。",
+          "self": "自我探索中：困境开始改善，或你仍因害怕被拒绝而不敢求助。",
+          "trend": "若当前条件延续，困境开始改善，或你仍因害怕被拒绝而不敢求助。",
+          "advice": "接受可用资源，并制定逐步恢复计划。"
+        }
+      }
+    },
+    {
+      "id": "pentacles_06",
+      "slug": "six_of_pentacles",
+      "name_en": "Six of Pentacles",
+      "name_zh": "星币六",
+      "arcana": "minor",
+      "number": 6,
+      "suit": "pentacles",
+      "rank": "six",
+      "element": "earth",
+      "image": "/cards_corrected/pentacles/06_six_of_pentacles.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "给予",
+          "接受",
+          "公平交换",
+          "援助",
+          "资源分配"
+        ],
+        "upright": {
+          "core": "资源正在流动，关键是交换是否公平并保留尊严。",
+          "love": "关系层面：资源正在流动，关键是交换是否公平并保留尊严。",
+          "career": "事业与现实层面：资源正在流动，关键是交换是否公平并保留尊严。",
+          "self": "自我探索中：资源正在流动，关键是交换是否公平并保留尊严。",
+          "trend": "若当前条件延续，资源正在流动，关键是交换是否公平并保留尊严。",
+          "advice": "说清给予的条件，也允许自己接受帮助。"
+        },
+        "reversed": {
+          "core": "附带控制的帮助、债务失衡或付出得不到回应。",
+          "love": "关系层面：附带控制的帮助、债务失衡或付出得不到回应。",
+          "career": "事业与现实层面：附带控制的帮助、债务失衡或付出得不到回应。",
+          "self": "自我探索中：附带控制的帮助、债务失衡或付出得不到回应。",
+          "trend": "若当前条件延续，附带控制的帮助、债务失衡或付出得不到回应。",
+          "advice": "重新谈判交换规则，停止用资源换取依赖。"
+        }
+      }
+    },
+    {
+      "id": "pentacles_07",
+      "slug": "seven_of_pentacles",
+      "name_en": "Seven of Pentacles",
+      "name_zh": "星币七",
+      "arcana": "minor",
+      "number": 7,
+      "suit": "pentacles",
+      "rank": "seven",
+      "element": "earth",
+      "image": "/cards_corrected/pentacles/07_seven_of_pentacles.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "耐心",
+          "评估",
+          "长期投入",
+          "等待成果",
+          "调整"
+        ],
+        "upright": {
+          "core": "长期投入已形成基础，现在适合评估而非急于收割。",
+          "love": "关系层面：长期投入已形成基础，现在适合评估而非急于收割。",
+          "career": "事业与现实层面：长期投入已形成基础，现在适合评估而非急于收割。",
+          "self": "自我探索中：长期投入已形成基础，现在适合评估而非急于收割。",
+          "trend": "若当前条件延续，长期投入已形成基础，现在适合评估而非急于收割。",
+          "advice": "检查回报与方法，保留有效投入。"
+        },
+        "reversed": {
+          "core": "进展缓慢、投入失衡或因焦躁过早放弃。",
+          "love": "关系层面：进展缓慢、投入失衡或因焦躁过早放弃。",
+          "career": "事业与现实层面：进展缓慢、投入失衡或因焦躁过早放弃。",
+          "self": "自我探索中：进展缓慢、投入失衡或因焦躁过早放弃。",
+          "trend": "若当前条件延续，进展缓慢、投入失衡或因焦躁过早放弃。",
+          "advice": "设定评估节点，不再向无效方向追加成本。"
+        }
+      }
+    },
+    {
+      "id": "pentacles_08",
+      "slug": "eight_of_pentacles",
+      "name_en": "Eight of Pentacles",
+      "name_zh": "星币八",
+      "arcana": "minor",
+      "number": 8,
+      "suit": "pentacles",
+      "rank": "eight",
+      "element": "earth",
+      "image": "/cards_corrected/pentacles/08_eight_of_pentacles.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "练习",
+          "专注",
+          "技能",
+          "勤奋",
+          "精进"
+        ],
+        "upright": {
+          "core": "重复练习和对细节的尊重会带来稳定提升。",
+          "love": "关系层面：重复练习和对细节的尊重会带来稳定提升。",
+          "career": "事业与现实层面：重复练习和对细节的尊重会带来稳定提升。",
+          "self": "自我探索中：重复练习和对细节的尊重会带来稳定提升。",
+          "trend": "若当前条件延续，重复练习和对细节的尊重会带来稳定提升。",
+          "advice": "建立可持续的训练节奏。"
+        },
+        "reversed": {
+          "core": "敷衍、完美主义、重复劳动或技能停滞。",
+          "love": "关系层面：敷衍、完美主义、重复劳动或技能停滞。",
+          "career": "事业与现实层面：敷衍、完美主义、重复劳动或技能停滞。",
+          "self": "自我探索中：敷衍、完美主义、重复劳动或技能停滞。",
+          "trend": "若当前条件延续，敷衍、完美主义、重复劳动或技能停滞。",
+          "advice": "调整练习方法，优先提高真正关键的能力。"
+        }
+      }
+    },
+    {
+      "id": "pentacles_09",
+      "slug": "nine_of_pentacles",
+      "name_en": "Nine of Pentacles",
+      "name_zh": "星币九",
+      "arcana": "minor",
+      "number": 9,
+      "suit": "pentacles",
+      "rank": "nine",
+      "element": "earth",
+      "image": "/cards_corrected/pentacles/09_nine_of_pentacles.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "独立",
+          "成果",
+          "品质生活",
+          "自给自足",
+          "从容"
+        ],
+        "upright": {
+          "core": "长期努力带来更强的独立性和享受成果的空间。",
+          "love": "关系层面：长期努力带来更强的独立性和享受成果的空间。",
+          "career": "事业与现实层面：长期努力带来更强的独立性和享受成果的空间。",
+          "self": "自我探索中：长期努力带来更强的独立性和享受成果的空间。",
+          "trend": "若当前条件延续，长期努力带来更强的独立性和享受成果的空间。",
+          "advice": "认可自己的价值，也维持支撑成果的习惯。"
+        },
+        "reversed": {
+          "core": "外表富足但内在不安、依赖他人或为形象过度消费。",
+          "love": "关系层面：外表富足但内在不安、依赖他人或为形象过度消费。",
+          "career": "事业与现实层面：外表富足但内在不安、依赖他人或为形象过度消费。",
+          "self": "自我探索中：外表富足但内在不安、依赖他人或为形象过度消费。",
+          "trend": "若当前条件延续，外表富足但内在不安、依赖他人或为形象过度消费。",
+          "advice": "重新检查自由是否建立在真实可持续的基础上。"
+        }
+      }
+    },
+    {
+      "id": "pentacles_10",
+      "slug": "ten_of_pentacles",
+      "name_en": "Ten of Pentacles",
+      "name_zh": "星币十",
+      "arcana": "minor",
+      "number": 10,
+      "suit": "pentacles",
+      "rank": "ten",
+      "element": "earth",
+      "image": "/cards_corrected/pentacles/10_ten_of_pentacles.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "长期稳定",
+          "家庭资源",
+          "传承",
+          "财富",
+          "根基"
+        ],
+        "upright": {
+          "core": "长期积累、家庭支持或制度性资源带来稳定前景。",
+          "love": "关系层面：长期积累、家庭支持或制度性资源带来稳定前景。",
+          "career": "事业与现实层面：长期积累、家庭支持或制度性资源带来稳定前景。",
+          "self": "自我探索中：长期积累、家庭支持或制度性资源带来稳定前景。",
+          "trend": "若当前条件延续，长期积累、家庭支持或制度性资源带来稳定前景。",
+          "advice": "考虑长期影响，并让资源规则透明。"
+        },
+        "reversed": {
+          "core": "家庭利益冲突、财务基础不稳或过度依赖传统保障。",
+          "love": "关系层面：家庭利益冲突、财务基础不稳或过度依赖传统保障。",
+          "career": "事业与现实层面：家庭利益冲突、财务基础不稳或过度依赖传统保障。",
+          "self": "自我探索中：家庭利益冲突、财务基础不稳或过度依赖传统保障。",
+          "trend": "若当前条件延续，家庭利益冲突、财务基础不稳或过度依赖传统保障。",
+          "advice": "处理隐藏成本，别让表面稳定掩盖结构问题。"
+        }
+      }
+    },
+    {
+      "id": "pentacles_11",
+      "slug": "page_of_pentacles",
+      "name_en": "Page of Pentacles",
+      "name_zh": "星币侍从",
+      "arcana": "minor",
+      "number": 11,
+      "suit": "pentacles",
+      "rank": "page",
+      "element": "earth",
+      "image": "/cards_corrected/pentacles/11_page_of_pentacles.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "学习机会",
+          "现实计划",
+          "新技能",
+          "专注",
+          "好消息"
+        ],
+        "upright": {
+          "core": "一个值得认真学习和落实的现实机会正在出现。",
+          "love": "关系层面：一个值得认真学习和落实的现实机会正在出现。",
+          "career": "事业与现实层面：一个值得认真学习和落实的现实机会正在出现。",
+          "self": "自我探索中：一个值得认真学习和落实的现实机会正在出现。",
+          "trend": "若当前条件延续，一个值得认真学习和落实的现实机会正在出现。",
+          "advice": "从基础开始，记录进度并持续实践。"
+        },
+        "reversed": {
+          "core": "拖延学习、计划不实际或只谈机会不肯投入。",
+          "love": "关系层面：拖延学习、计划不实际或只谈机会不肯投入。",
+          "career": "事业与现实层面：拖延学习、计划不实际或只谈机会不肯投入。",
+          "self": "自我探索中：拖延学习、计划不实际或只谈机会不肯投入。",
+          "trend": "若当前条件延续，拖延学习、计划不实际或只谈机会不肯投入。",
+          "advice": "缩小目标，用一次可完成的练习重启。"
+        }
+      }
+    },
+    {
+      "id": "pentacles_12",
+      "slug": "knight_of_pentacles",
+      "name_en": "Knight of Pentacles",
+      "name_zh": "星币骑士",
+      "arcana": "minor",
+      "number": 12,
+      "suit": "pentacles",
+      "rank": "knight",
+      "element": "earth",
+      "image": "/cards_corrected/pentacles/12_knight_of_pentacles.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "可靠",
+          "耐心",
+          "责任",
+          "稳定推进",
+          "务实"
+        ],
+        "upright": {
+          "core": "稳健、重复和责任感会带来可预测的进展。",
+          "love": "关系层面：稳健、重复和责任感会带来可预测的进展。",
+          "career": "事业与现实层面：稳健、重复和责任感会带来可预测的进展。",
+          "self": "自我探索中：稳健、重复和责任感会带来可预测的进展。",
+          "trend": "若当前条件延续，稳健、重复和责任感会带来可预测的进展。",
+          "advice": "坚持节奏，不必被外界速度打乱。"
+        },
+        "reversed": {
+          "core": "停滞、固执、懒散或只顾工作忽略生命感。",
+          "love": "关系层面：停滞、固执、懒散或只顾工作忽略生命感。",
+          "career": "事业与现实层面：停滞、固执、懒散或只顾工作忽略生命感。",
+          "self": "自我探索中：停滞、固执、懒散或只顾工作忽略生命感。",
+          "trend": "若当前条件延续，停滞、固执、懒散或只顾工作忽略生命感。",
+          "advice": "改变一种僵化做法，让稳定重新服务于成长。"
+        }
+      }
+    },
+    {
+      "id": "pentacles_13",
+      "slug": "queen_of_pentacles",
+      "name_en": "Queen of Pentacles",
+      "name_zh": "星币王后",
+      "arcana": "minor",
+      "number": 13,
+      "suit": "pentacles",
+      "rank": "queen",
+      "element": "earth",
+      "image": "/cards_corrected/pentacles/13_queen_of_pentacles.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "滋养现实",
+          "务实关怀",
+          "丰足",
+          "稳定",
+          "资源管理"
+        ],
+        "upright": {
+          "core": "温暖与务实可以同时存在，你有能力让资源真正支持生活。",
+          "love": "关系层面：温暖与务实可以同时存在，你有能力让资源真正支持生活。",
+          "career": "事业与现实层面：温暖与务实可以同时存在，你有能力让资源真正支持生活。",
+          "self": "自我探索中：温暖与务实可以同时存在，你有能力让资源真正支持生活。",
+          "trend": "若当前条件延续，温暖与务实可以同时存在，你有能力让资源真正支持生活。",
+          "advice": "照顾现实细节，也别忘记自己的需要。"
+        },
+        "reversed": {
+          "core": "过度操心、物质焦虑、失去边界或自我照顾不足。",
+          "love": "关系层面：过度操心、物质焦虑、失去边界或自我照顾不足。",
+          "career": "事业与现实层面：过度操心、物质焦虑、失去边界或自我照顾不足。",
+          "self": "自我探索中：过度操心、物质焦虑、失去边界或自我照顾不足。",
+          "trend": "若当前条件延续，过度操心、物质焦虑、失去边界或自我照顾不足。",
+          "advice": "停止包办，把时间和资源重新分配给自己。"
+        }
+      }
+    },
+    {
+      "id": "pentacles_14",
+      "slug": "king_of_pentacles",
+      "name_en": "King of Pentacles",
+      "name_zh": "星币国王",
+      "arcana": "minor",
+      "number": 14,
+      "suit": "pentacles",
+      "rank": "king",
+      "element": "earth",
+      "image": "/cards_corrected/pentacles/14_king_of_pentacles.png",
+      "asset_status": "qa_passed",
+      "editorial_status": "draft_complete",
+      "interpretation": {
+        "keywords": [
+          "成熟财富",
+          "可靠领导",
+          "长期成果",
+          "经营",
+          "安全"
+        ],
+        "upright": {
+          "core": "稳健判断和长期经营能力正在创造可靠成果。",
+          "love": "关系层面：稳健判断和长期经营能力正在创造可靠成果。",
+          "career": "事业与现实层面：稳健判断和长期经营能力正在创造可靠成果。",
+          "self": "自我探索中：稳健判断和长期经营能力正在创造可靠成果。",
+          "trend": "若当前条件延续，稳健判断和长期经营能力正在创造可靠成果。",
+          "advice": "以可持续和公平作为成功标准。"
+        },
+        "reversed": {
+          "core": "贪婪、僵化、工作至上或用金钱和地位控制局面。",
+          "love": "关系层面：贪婪、僵化、工作至上或用金钱和地位控制局面。",
+          "career": "事业与现实层面：贪婪、僵化、工作至上或用金钱和地位控制局面。",
+          "self": "自我探索中：贪婪、僵化、工作至上或用金钱和地位控制局面。",
+          "trend": "若当前条件延续，贪婪、僵化、工作至上或用金钱和地位控制局面。",
+          "advice": "检查成功代价，恢复资源与生活之间的平衡。"
+        }
+      }
+    }
+  ]
+}

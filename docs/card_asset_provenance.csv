@@ -1,0 +1,80 @@
+﻿asset,source,crop_box,qa_status
+major/00_the_fool.png,sources/arcana00.jpg,full image,pending visual review
+major/01_the_magician.png,sources/arcana01.jpg,full image,pending visual review
+major/02_the_high_priestess.png,sources/arcana02.jpg,full image,pending visual review
+major/03_the_empress.png,sources/arcana03.jpg,full image,pending visual review
+major/04_the_emperor.png,sources/arcana04.jpg,full image,pending visual review
+major/05_the_hierophant.png,sources/arcana05.jpg,full image,pending visual review
+major/06_the_lovers.png,sources/arcana06.jpg,full image,pending visual review
+major/07_the_chariot.png,sources/arcana07.jpg,full image,pending visual review
+major/08_strength.png,sources/arcana08.jpg,full image,pending visual review
+major/09_the_hermit.png,sources/arcana09.jpg,full image,pending visual review
+major/10_wheel_of_fortune.png,sources/arcana10.jpg,full image,pending visual review
+major/11_justice.png,sources/arcana11.jpg,full image,pending visual review
+major/12_the_hanged_man.png,sources/arcana12.jpg,full image,pending visual review
+major/13_death.png,sources/arcana13.jpg,full image,pending visual review
+major/14_temperance.png,sources/arcana14.jpg,full image,pending visual review
+major/15_the_devil.png,sources/arcana15.jpg,full image,pending visual review
+major/16_the_tower.png,sources/arcana16.jpg,full image,pending visual review
+major/17_the_star.png,sources/arcana17.jpg,full image,pending visual review
+major/18_the_moon.png,sources/arcana18.jpg,full image,pending visual review
+major/19_the_sun.png,sources/arcana19.jpg,full image,pending visual review
+major/20_judgement.png,sources/arcana20.jpg,full image,pending visual review
+major/21_the_world.png,sources/arcana21.jpg,full image,pending visual review
+cups/01_ace_of_cups.png,image-gen-1(4).png,"37,17,464,788",pass
+wands/01_ace_of_wands.png,image-gen-1(4).png,"556,17,974,788",pass
+swords/01_ace_of_swords.png,image-gen-1(4).png,"37,819,464,1528",pass
+pentacles/01_ace_of_pentacles.png,image-gen-1(4).png,"556,819,974,1528",pass
+cups/02_two_of_cups.png,华丽塔罗牌四乘四矩阵.png,"20,18,244,414",pass
+wands/02_two_of_wands.png,华丽塔罗牌四乘四矩阵.png,"274,18,496,414",pass
+swords/02_two_of_swords.png,华丽塔罗牌四乘四矩阵.png,"528,18,750,414",pass
+pentacles/02_two_of_pentacles.png,华丽塔罗牌四乘四矩阵.png,"781,18,1004,414",pass
+cups/03_three_of_cups.png,华丽塔罗牌四乘四矩阵.png,"20,432,244,828",pass
+wands/03_three_of_wands.png,华丽塔罗牌四乘四矩阵.png,"274,432,496,828",pass
+swords/03_three_of_swords.png,华丽塔罗牌四乘四矩阵.png,"528,432,750,828",pass
+pentacles/03_three_of_pentacles.png,华丽塔罗牌四乘四矩阵.png,"781,432,1004,828",pass
+cups/04_four_of_cups.png,华丽塔罗牌四乘四矩阵.png,"20,843,244,1240",pass
+wands/04_four_of_wands.png,华丽塔罗牌四乘四矩阵.png,"274,843,496,1240",pass
+swords/04_four_of_swords.png,华丽塔罗牌四乘四矩阵.png,"528,843,750,1240",pass
+pentacles/04_four_of_pentacles.png,华丽塔罗牌四乘四矩阵.png,"781,843,1004,1240",printed title typo
+cups/05_five_of_cups.png,梦幻星辉塔罗二至五牌阵.png,"783,9,1008,395",wrong top numeral: 2
+wands/05_five_of_wands.png,梦幻星辉塔罗二至五牌阵.png,"783,409,1008,781",wrong top numeral: 2
+swords/05_five_of_swords.png,梦幻星辉塔罗二至五牌阵.png,"783,796,1008,1152",wrong top numeral: 2
+pentacles/05_five_of_pentacles.png,梦幻星辉塔罗二至五牌阵.png,"783,1164,1008,1526",wrong top numeral: 2
+cups/06_six_of_cups.png,梦幻塔罗牌十二宫阵列.png,"22,9,253,507",pass
+wands/06_six_of_wands.png,梦幻塔罗牌十二宫阵列.png,"280,9,501,507",pass
+swords/06_six_of_swords.png,梦幻塔罗牌十二宫阵列.png,"528,9,749,507",pass
+pentacles/06_six_of_pentacles.png,梦幻塔罗牌十二宫阵列.png,"777,9,999,507",pass
+cups/07_seven_of_cups.png,梦幻塔罗牌十二宫阵列.png,"22,519,253,1016",pass
+wands/07_seven_of_wands.png,梦幻塔罗牌十二宫阵列.png,"280,519,501,1016",pass
+swords/07_seven_of_swords.png,梦幻塔罗牌十二宫阵列.png,"528,519,749,1016",pass
+pentacles/07_seven_of_pentacles.png,梦幻塔罗牌十二宫阵列.png,"777,519,999,1016",pass
+cups/08_eight_of_cups.png,梦幻塔罗牌十二宫阵列.png,"22,1028,253,1524",pass
+wands/08_eight_of_wands.png,梦幻塔罗牌十二宫阵列.png,"280,1028,501,1524",pass
+swords/08_eight_of_swords.png,梦幻塔罗牌十二宫阵列.png,"528,1028,749,1524",pass
+pentacles/08_eight_of_pentacles.png,梦幻塔罗牌十二宫阵列.png,"777,1028,999,1524",pass
+cups/09_nine_of_cups.png,image-gen-1(7).png,"22,8,253,507",pass
+wands/09_nine_of_wands.png,image-gen-1(7).png,"280,8,501,507",pass
+swords/09_nine_of_swords.png,image-gen-1(7).png,"527,8,749,507",pass
+pentacles/09_nine_of_pentacles.png,image-gen-1(7).png,"776,8,999,507",pass
+cups/10_ten_of_cups.png,image-gen-1(7).png,"22,518,253,1016",pass
+wands/10_ten_of_wands.png,image-gen-1(7).png,"280,518,501,1016",pass
+swords/10_ten_of_swords.png,image-gen-1(7).png,"527,518,749,1016",pass
+pentacles/10_ten_of_pentacles.png,image-gen-1(7).png,"776,518,999,1016",pass
+cups/11_page_of_cups.png,image-gen-1(7).png,"22,1026,253,1524",pass
+wands/11_page_of_wands.png,image-gen-1(7).png,"280,1026,501,1524",pass
+swords/11_page_of_swords.png,image-gen-1(7).png,"527,1026,749,1524",pass
+pentacles/11_page_of_pentacles.png,image-gen-1(7).png,"776,1026,999,1524",pass
+cups/12_knight_of_cups.png,image-gen-1(5).png,"519,841,756,1225",pass
+wands/12_knight_of_wands.png,星月秘境：塔罗宫廷牌图鉴.png,"274,9,496,494",wrong printed rank: JACK/侍从
+swords/12_knight_of_swords.png,星月秘境：塔罗宫廷牌图鉴.png,"527,9,749,494",wrong printed rank: JACK/侍从
+pentacles/12_knight_of_pentacles.png,星月秘境：塔罗宫廷牌图鉴.png,"779,9,1003,494",wrong printed rank: JACK/侍从
+cups/13_queen_of_cups.png,星月秘境：塔罗宫廷牌图鉴.png,"20,512,245,992",pass
+wands/13_queen_of_wands.png,星月秘境：塔罗宫廷牌图鉴.png,"274,512,496,992",pass
+swords/13_queen_of_swords.png,星月秘境：塔罗宫廷牌图鉴.png,"527,512,749,992",pass
+pentacles/13_queen_of_pentacles.png,星月秘境：塔罗宫廷牌图鉴.png,"779,512,1003,992",pass
+cups/14_king_of_cups.png,星月秘境：塔罗宫廷牌图鉴.png,"20,1008,245,1421",pass
+wands/14_king_of_wands.png,星月秘境：塔罗宫廷牌图鉴.png,"274,1008,496,1421",pass
+swords/14_king_of_swords.png,星月秘境：塔罗宫廷牌图鉴.png,"527,1008,749,1421",pass
+pentacles/14_king_of_pentacles.png,星月秘境：塔罗宫廷牌图鉴.png,"779,1008,1003,1421",pass
+back/card_back.png,繁星金饰月相曼陀罗卡背.png,full image,aspect ratio differs from faces
